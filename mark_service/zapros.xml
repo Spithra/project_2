@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<ns:Documents xmlns:ce="http://fsrar.ru/WEGAIS/CommonV3"
+    xmlns:ns="http://fsrar.ru/WEGAIS/WB_DOC_SINGLE_01"
+    xmlns:oref="http://fsrar.ru/WEGAIS/ClientRef_v2"
+    xmlns:pref="http://fsrar.ru/WEGAIS/ProductRef_v2"
+    xmlns:wb="http://fsrar.ru/WEGAIS/TTNSingle_v4"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Version="1.0">
+    <ns:Owner>
+        <ns:FSRAR_ID>030000434307</ns:FSRAR_ID>
+    </ns:Owner>
+    <ns:Document>
+        <ns:WayBill_v4>
+            <wb:Identity>1</wb:Identity>
+            <wb:Header>
+                <wb:NUMBER>10000113</wb:NUMBER>
+                <wb:Date>2019-11-08</wb:Date>
+                <wb:ShippingDate>2019-11-07</wb:ShippingDate>
+                <wb:Type>WBInvoiceFromMe</wb:Type>
+                <wb:Shipper>
+                    <oref:UL>
+                        <oref:ClientRegId>030000434307</oref:ClientRegId>
+                        <oref:INN>7841051711</oref:INN>
+                        <oref:KPP>770101007</oref:KPP>
+                        <oref:FullName>АКЦИОНЕРНОЕ ОБЩЕСТВО "ЦЕНТРИНФОРМ"</oref:FullName>
+                        <oref:ShortName>АКЦИОНЕРНОЕ ОБЩЕСТВО "ЦЕНТРИНФОРМ"</oref:ShortName>
+                        <oref:address>
+                            <oref:Country>643</oref:Country>
+                            <oref:RegionCode>77</oref:RegionCode>
+                            <oref:description>Россия,117105,Москва Г, Варшавское ш, д. 37 А, стр. 8</oref:description>
+                        </oref:address>
+                    </oref:UL>
+                </wb:Shipper>
+                <wb:Consignee>
+                    <oref:UL>
+                        <oref:ClientRegId>030000434307</oref:ClientRegId>
+                        <oref:INN>7841051711</oref:INN>
+                        <oref:KPP>770101007</oref:KPP>
+                        <oref:FullName>АКЦИОНЕРНОЕ ОБЩЕСТВО "ЦЕНТРИНФОРМ"</oref:FullName>
+                        <oref:ShortName>АКЦИОНЕРНОЕ ОБЩЕСТВО "ЦЕНТРИНФОРМ"</oref:ShortName>
+                        <oref:address>
+                            <oref:Country>643</oref:Country>
+                            <oref:RegionCode>77</oref:RegionCode>
+                            <oref:description>Россия,117105,Москва Г, Варшавское ш, д. 37 А, стр. 8</oref:description>
+                        </oref:address>
+                    </oref:UL>
+                </wb:Consignee>
+                <wb:Transport>
+                    <wb:TRAN_TYPE>Автомобиль</wb:TRAN_TYPE>
+                    <wb:ChangeOwnership>IsChange</wb:ChangeOwnership>
+                    <wb:TRANSPORT_TYPE>car</wb:TRANSPORT_TYPE>
+                    <wb:TRAN_COMPANY>ООО"Азурит"</wb:TRAN_COMPANY>
+                    <wb:TRAN_TRAILER/>
+                    <wb:TRAN_CUSTOMER>ЗАО"Союз-Виктан"</wb:TRAN_CUSTOMER>
+                    <wb:TRAN_DRIVER>Шайцанс А.В.</wb:TRAN_DRIVER>
+                    <wb:TRAN_LOADPOINT>П.Горбово</wb:TRAN_LOADPOINT>
+                    <wb:TRAN_UNLOADPOINT>Лыткарино</wb:TRAN_UNLOADPOINT>
+                    <wb:TRAN_REDIRECT/>
+                    <wb:TRAN_FORWARDER>Шайцанс А.В.</wb:TRAN_FORWARDER>
+                </wb:Transport>
+                <wb:Base>основание - текст</wb:Base>
+                <wb:Note>тестовая накладная версия 3</wb:Note>
+            </wb:Header>
+            <wb:Content>
+                <wb:Position>
+                    <wb:Identity>1</wb:Identity>
+                    <wb:Product>
+                        <pref:Type>АП</pref:Type>
+                        <pref:FullName>"Водка Ивановская"</pref:FullName>
+                        <pref:AlcCode>0000000000108201801</pref:AlcCode>
+                        <pref:Capacity>0.750</pref:Capacity>
+                        <pref:UnitType>Packed</pref:UnitType>
+                        <pref:AlcVolume>40.0</pref:AlcVolume>
+                        <pref:ProductVCode>200</pref:ProductVCode>
+                        <pref:Producer>
+                            <oref:UL>
+                                <oref:ClientRegId>030000424092</oref:ClientRegId>
+                                <oref:FullName>АКЦИОНЕРНОЕ ОБЩЕСТВО "ЦЕНТРИНФОРМ"</oref:FullName>
+                                <oref:INN>7841051711</oref:INN>
+                                <oref:KPP>770101007</oref:KPP>
+                                <oref:address>
+                                    <oref:Country>643</oref:Country>
+                                    <oref:RegionCode>77</oref:RegionCode>
+                                    <oref:description>Россия,117105,Москва Г, Варшавское ш, д. 37 А, стр. 8</oref:description>
+                                </oref:address>
+                            </oref:UL>
+                        </pref:Producer>
+                    </wb:Product>
+                    <wb:Quantity>1</wb:Quantity>
+                    <wb:Price>280.00</wb:Price>
+                    <wb:Pack_ID>Паллета</wb:Pack_ID>
+                    <wb:Party>партия № 88</wb:Party>
+                    <wb:FARegId>TEST-FA-000000036374714</wb:FARegId>
+                    <wb:InformF2>
+                        <ce:F2RegId>TEST-FB-000000036837640</ce:F2RegId>
+                        <ce:MarkInfo>
+                            <ce:boxpos>
+                                <ce:boxnumber>000000000000000018</ce:boxnumber>
+                                <ce:amclist>
+                                    <ce:amc>22zz</ce:amc>
+                                    <ce:amc>23zz</ce:amc>
+                                    <ce:amc>24zz</ce:amc>
+                                </ce:amclist>
+                            </ce:boxpos>
+                        </ce:MarkInfo>
+                    </wb:InformF2>
+                    <wb:InformF2>
+                        <ce:F2RegId>TEST-FB-000000036837641</ce:F2RegId>
+                        <ce:MarkInfo>
+                            <ce:boxpos>
+                                <ce:boxnumber>000000000000000018</ce:boxnumber>
+                                <ce:amclist>
+                                    <ce:amc>25zz</ce:amc>
+                                    <ce:amc>26zz</ce:amc>
+                                    <ce:amc>27zz</ce:amc>
+                                </ce:amclist>
+                            </ce:boxpos>
+                        </ce:MarkInfo>
+                    </wb:InformF2>
+                </wb:Position>
+                <wb:Position>
+                    <wb:Identity>1</wb:Identity>
+                    <wb:Product>
+                        <pref:Type>АП</pref:Type>
+                        <pref:FullName>"Водка Ивановская"</pref:FullName>
+                        <pref:AlcCode>0000000000108201801</pref:AlcCode>
+                        <pref:Capacity>0.750</pref:Capacity>
+                        <pref:UnitType>Packed</pref:UnitType>
+                        <pref:AlcVolume>50.0</pref:AlcVolume>
+                        <pref:ProductVCode>200</pref:ProductVCode>
+                        <pref:Producer>
+                            <oref:UL>
+                                <oref:ClientRegId>030000424092</oref:ClientRegId>
+                                <oref:FullName>АКЦИОНЕРНОЕ ОБЩЕСТВО "ЦЕНТРИНФОРМ"</oref:FullName>
+                                <oref:INN>7841051711</oref:INN>
+                                <oref:KPP>770101007</oref:KPP>
+                                <oref:address>
+                                    <oref:Country>643</oref:Country>
+                                    <oref:RegionCode>77</oref:RegionCode>
+                                    <oref:description>Россия,117105,Москва Г, Варшавское ш, д. 37 А, стр. 8</oref:description>
+                                </oref:address>
+                            </oref:UL>
+                        </pref:Producer>
+                    </wb:Product>
+                    <wb:Quantity>1</wb:Quantity>
+                    <wb:Price>280.00</wb:Price>
+                    <wb:Pack_ID>Паллета</wb:Pack_ID>
+                    <wb:Party>партия № 88</wb:Party>
+                    <wb:FARegId>TEST-FA-000000036374714</wb:FARegId>
+                    <wb:InformF2>
+                        <ce:F2RegId>TEST-FB-000000036837642</ce:F2RegId>
+                        <ce:MarkInfo>
+                            <ce:boxpos>
+                                <ce:boxnumber>000000000000000018</ce:boxnumber>
+                                <ce:amclist>
+                                    <ce:amc>28zz</ce:amc>
+                                    <ce:amc>29zz</ce:amc>
+                                    <ce:amc>30zz</ce:amc>
+                                </ce:amclist>
+                            </ce:boxpos>
+                        </ce:MarkInfo>
+                    </wb:InformF2>
+                    <wb:InformF2>
+                        <ce:F2RegId>TEST-FB-000000036837643</ce:F2RegId>
+                        <ce:MarkInfo>
+                            <ce:boxpos>
+                                <ce:boxnumber>000000000000000018</ce:boxnumber>
+                                <ce:amclist>
+                                    <ce:amc>31zz</ce:amc>
+                                    <ce:amc>32zz</ce:amc>
+                                    <ce:amc>33zz</ce:amc>
+                                </ce:amclist>
+                            </ce:boxpos>
+                        </ce:MarkInfo>
+                    </wb:InformF2>
+                </wb:Position>
+            </wb:Content>
+        </ns:WayBill_v4>
+    </ns:Document>
+</ns:Documents>
+
+
+
+
+{
+    "marks": [
+        "321",
+        "312321",
+        "1234"
+    ]
+}

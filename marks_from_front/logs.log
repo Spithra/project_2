@@ -1,0 +1,2010 @@
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /1                        --> main.fufu (5 handlers)
+[GIN-debug] POST   /1                        --> main.fufu (5 handlers)
+[GIN-debug] PUT    /1                        --> main.fufu (5 handlers)
+[GIN-debug] PATCH  /1                        --> main.fufu (5 handlers)
+[GIN-debug] HEAD   /1                        --> main.fufu (5 handlers)
+[GIN-debug] OPTIONS /1                        --> main.fufu (5 handlers)
+[GIN-debug] DELETE /1                        --> main.fufu (5 handlers)
+[GIN-debug] CONNECT /1                        --> main.fufu (5 handlers)
+[GIN-debug] TRACE  /1                        --> main.fufu (5 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :8080
+[GIN] 2024/06/12 - 17:41:43 | 200 |      7.1574ms |             ::1 | POST     "/1"
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /1                        --> main.fufu (4 handlers)
+[GIN-debug] POST   /1                        --> main.fufu (4 handlers)
+[GIN-debug] PUT    /1                        --> main.fufu (4 handlers)
+[GIN-debug] PATCH  /1                        --> main.fufu (4 handlers)
+[GIN-debug] HEAD   /1                        --> main.fufu (4 handlers)
+[GIN-debug] OPTIONS /1                        --> main.fufu (4 handlers)
+[GIN-debug] DELETE /1                        --> main.fufu (4 handlers)
+[GIN-debug] CONNECT /1                        --> main.fufu (4 handlers)
+[GIN-debug] TRACE  /1                        --> main.fufu (4 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :8080
+[GIN] 2024/06/12 - 17:42:45 | 200 |      7.0848ms |             ::1 | POST     "/1"
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /1                        --> main.fufu (4 handlers)
+[GIN-debug] POST   /1                        --> main.fufu (4 handlers)
+[GIN-debug] PUT    /1                        --> main.fufu (4 handlers)
+[GIN-debug] PATCH  /1                        --> main.fufu (4 handlers)
+[GIN-debug] HEAD   /1                        --> main.fufu (4 handlers)
+[GIN-debug] OPTIONS /1                        --> main.fufu (4 handlers)
+[GIN-debug] DELETE /1                        --> main.fufu (4 handlers)
+[GIN-debug] CONNECT /1                        --> main.fufu (4 handlers)
+[GIN-debug] TRACE  /1                        --> main.fufu (4 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :8080
+[GIN] 2024/06/12 - 17:43:12 | 200 |       512.6µs |             ::1 | POST     "/1"
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /marki                    --> main.fufu (5 handlers)
+[GIN-debug] POST   /marki                    --> main.fufu (5 handlers)
+[GIN-debug] PUT    /marki                    --> main.fufu (5 handlers)
+[GIN-debug] PATCH  /marki                    --> main.fufu (5 handlers)
+[GIN-debug] HEAD   /marki                    --> main.fufu (5 handlers)
+[GIN-debug] OPTIONS /marki                    --> main.fufu (5 handlers)
+[GIN-debug] DELETE /marki                    --> main.fufu (5 handlers)
+[GIN-debug] CONNECT /marki                    --> main.fufu (5 handlers)
+[GIN-debug] TRACE  /marki                    --> main.fufu (5 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :8081
+
+REQUEST BODY: <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<ns:Documents xmlns:ce="http://fsrar.ru/WEGAIS/CommonV3"
+    xmlns:ns="http://fsrar.ru/WEGAIS/WB_DOC_SINGLE_01"
+    xmlns:oref="http://fsrar.ru/WEGAIS/ClientRef_v2"
+    xmlns:pref="http://fsrar.ru/WEGAIS/ProductRef_v2"
+    xmlns:wb="http://fsrar.ru/WEGAIS/TTNSingle_v4"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Version="1.0">
+    <ns:Owner>
+        <ns:FSRAR_ID>030000434307</ns:FSRAR_ID>
+    </ns:Owner>
+    <ns:Document>
+        <ns:WayBill_v4>
+            <wb:Identity>1</wb:Identity>
+            <wb:Header>
+                <wb:NUMBER>10000113</wb:NUMBER>
+                <wb:Date>2019-11-08</wb:Date>
+                <wb:ShippingDate>2019-11-07</wb:ShippingDate>
+                <wb:Type>WBInvoiceFromMe</wb:Type>
+                <wb:Shipper>
+                    <oref:UL>
+                        <oref:ClientRegId>030000434307</oref:ClientRegId>
+                        <oref:INN>7841051711</oref:INN>
+                        <oref:KPP>770101007</oref:KPP>
+                        <oref:FullName>АКЦИОНЕРНОЕ ОБЩЕСТВО "ЦЕНТРИНФОРМ"</oref:FullName>
+                        <oref:ShortName>АКЦИОНЕРНОЕ ОБЩЕСТВО "ЦЕНТРИНФОРМ"</oref:ShortName>
+                        <oref:address>
+                            <oref:Country>643</oref:Country>
+                            <oref:RegionCode>77</oref:RegionCode>
+                            <oref:description>Россия,117105,Москва Г, Варшавское ш, д. 37 А, стр. 8</oref:description>
+                        </oref:address>
+                    </oref:UL>
+                </wb:Shipper>
+                <wb:Consignee>
+                    <oref:UL>
+                        <oref:ClientRegId>030000434307</oref:ClientRegId>
+                        <oref:INN>7841051711</oref:INN>
+                        <oref:KPP>770101007</oref:KPP>
+                        <oref:FullName>АКЦИОНЕРНОЕ ОБЩЕСТВО "ЦЕНТРИНФОРМ"</oref:FullName>
+                        <oref:ShortName>АКЦИОНЕРНОЕ ОБЩЕСТВО "ЦЕНТРИНФОРМ"</oref:ShortName>
+                        <oref:address>
+                            <oref:Country>643</oref:Country>
+                            <oref:RegionCode>77</oref:RegionCode>
+                            <oref:description>Россия,117105,Москва Г, Варшавское ш, д. 37 А, стр. 8</oref:description>
+                        </oref:address>
+                    </oref:UL>
+                </wb:Consignee>
+                <wb:Transport>
+                    <wb:TRAN_TYPE>Автомобиль</wb:TRAN_TYPE>
+                    <wb:ChangeOwnership>IsChange</wb:ChangeOwnership>
+                    <wb:TRANSPORT_TYPE>car</wb:TRANSPORT_TYPE>
+                    <wb:TRAN_COMPANY>ООО"Азурит"</wb:TRAN_COMPANY>
+                    <wb:TRAN_TRAILER/>
+                    <wb:TRAN_CUSTOMER>ЗАО"Союз-Виктан"</wb:TRAN_CUSTOMER>
+                    <wb:TRAN_DRIVER>Шайцанс А.В.</wb:TRAN_DRIVER>
+                    <wb:TRAN_LOADPOINT>П.Горбово</wb:TRAN_LOADPOINT>
+                    <wb:TRAN_UNLOADPOINT>Лыткарино</wb:TRAN_UNLOADPOINT>
+                    <wb:TRAN_REDIRECT/>
+                    <wb:TRAN_FORWARDER>Шайцанс А.В.</wb:TRAN_FORWARDER>
+                </wb:Transport>
+                <wb:Base>основание - текст</wb:Base>
+                <wb:Note>тестовая накладная версия 3</wb:Note>
+            </wb:Header>
+            <wb:Content>
+                <wb:Position>
+                    <wb:Identity>1</wb:Identity>
+                    <wb:Product>
+                        <pref:Type>АП</pref:Type>
+                        <pref:FullName>"Водка Ивановская"</pref:FullName>
+                        <pref:AlcCode>0000000000108201801</pref:AlcCode>
+                        <pref:Capacity>0.750</pref:Capacity>
+                        <pref:UnitType>Packed</pref:UnitType>
+                        <pref:AlcVolume>40.0</pref:AlcVolume>
+                        <pref:ProductVCode>200</pref:ProductVCode>
+                        <pref:Producer>
+                            <oref:UL>
+                                <oref:ClientRegId>030000424092</oref:ClientRegId>
+                                <oref:FullName>АКЦИОНЕРНОЕ ОБЩЕСТВО "ЦЕНТРИНФОРМ"</oref:FullName>
+                                <oref:INN>7841051711</oref:INN>
+                                <oref:KPP>770101007</oref:KPP>
+                                <oref:address>
+                                    <oref:Country>643</oref:Country>
+                                    <oref:RegionCode>77</oref:RegionCode>
+                                    <oref:description>Россия,117105,Москва Г, Варшавское ш, д. 37 А, стр. 8</oref:description>
+                                </oref:address>
+                            </oref:UL>
+                        </pref:Producer>
+                    </wb:Product>
+                    <wb:Quantity>1</wb:Quantity>
+                    <wb:Price>280.00</wb:Price>
+                    <wb:Pack_ID>Паллета</wb:Pack_ID>
+                    <wb:Party>партия № 88</wb:Party>
+                    <wb:FARegId>TEST-FA-000000036374714</wb:FARegId>
+                    <wb:InformF2>
+                        <ce:F2RegId>Коня</ce:F2RegId>
+                        <ce:MarkInfo>
+                            <ce:boxpos>
+                                <ce:boxnumber>000000000000000018</ce:boxnumber>
+                                <ce:amclist>
+                                    <ce:amc>Залупа</ce:amc>
+                                </ce:amclist>
+                            </ce:boxpos>
+                        </ce:MarkInfo>
+                    </wb:InformF2>
+                </wb:Position>
+            </wb:Content>
+        </ns:WayBill_v4>
+    </ns:Document>
+</ns:Documents>
+[GIN] 2024/06/12 - 21:30:20 | 400 |      5.1617ms |             ::1 | GET      "/marki"
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /marki                    --> main.fufu (5 handlers)
+[GIN-debug] POST   /marki                    --> main.fufu (5 handlers)
+[GIN-debug] PUT    /marki                    --> main.fufu (5 handlers)
+[GIN-debug] PATCH  /marki                    --> main.fufu (5 handlers)
+[GIN-debug] HEAD   /marki                    --> main.fufu (5 handlers)
+[GIN-debug] OPTIONS /marki                    --> main.fufu (5 handlers)
+[GIN-debug] DELETE /marki                    --> main.fufu (5 handlers)
+[GIN-debug] CONNECT /marki                    --> main.fufu (5 handlers)
+[GIN-debug] TRACE  /marki                    --> main.fufu (5 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :8081
+
+REQUEST BODY: 1
+[GIN] 2024/06/12 - 21:33:58 | 400 |       5.784ms |             ::1 | GET      "/marki"
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /marki                    --> main.fufu (5 handlers)
+[GIN-debug] POST   /marki                    --> main.fufu (5 handlers)
+[GIN-debug] PUT    /marki                    --> main.fufu (5 handlers)
+[GIN-debug] PATCH  /marki                    --> main.fufu (5 handlers)
+[GIN-debug] HEAD   /marki                    --> main.fufu (5 handlers)
+[GIN-debug] OPTIONS /marki                    --> main.fufu (5 handlers)
+[GIN-debug] DELETE /marki                    --> main.fufu (5 handlers)
+[GIN-debug] CONNECT /marki                    --> main.fufu (5 handlers)
+[GIN-debug] TRACE  /marki                    --> main.fufu (5 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :8081
+
+REQUEST BODY: 
+[GIN] 2024/06/12 - 21:42:43 | 400 |     26.9057ms |             ::1 | GET      "/marki"
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /marki                    --> main.fufu (5 handlers)
+[GIN-debug] POST   /marki                    --> main.fufu (5 handlers)
+[GIN-debug] PUT    /marki                    --> main.fufu (5 handlers)
+[GIN-debug] PATCH  /marki                    --> main.fufu (5 handlers)
+[GIN-debug] HEAD   /marki                    --> main.fufu (5 handlers)
+[GIN-debug] OPTIONS /marki                    --> main.fufu (5 handlers)
+[GIN-debug] DELETE /marki                    --> main.fufu (5 handlers)
+[GIN-debug] CONNECT /marki                    --> main.fufu (5 handlers)
+[GIN-debug] TRACE  /marki                    --> main.fufu (5 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :8081
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /marki                    --> main.fufu (5 handlers)
+[GIN-debug] POST   /marki                    --> main.fufu (5 handlers)
+[GIN-debug] PUT    /marki                    --> main.fufu (5 handlers)
+[GIN-debug] PATCH  /marki                    --> main.fufu (5 handlers)
+[GIN-debug] HEAD   /marki                    --> main.fufu (5 handlers)
+[GIN-debug] OPTIONS /marki                    --> main.fufu (5 handlers)
+[GIN-debug] DELETE /marki                    --> main.fufu (5 handlers)
+[GIN-debug] CONNECT /marki                    --> main.fufu (5 handlers)
+[GIN-debug] TRACE  /marki                    --> main.fufu (5 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :8081
+REQUEST BODY: 1asasf
+[GIN] 2024/06/12 - 22:59:00 | 400 |     11.0738ms |             ::1 | GET      "/marki"
+REQUEST BODY: {
+    "marks": [
+        "marka1",
+        "marka2",
+        "marka3"
+    ]
+}
+[GIN] 2024/06/12 - 22:59:53 | 400 |      9.1638ms |             ::1 | POST     "/marki"
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /marki                    --> main.fufu (5 handlers)
+[GIN-debug] POST   /marki                    --> main.fufu (5 handlers)
+[GIN-debug] PUT    /marki                    --> main.fufu (5 handlers)
+[GIN-debug] PATCH  /marki                    --> main.fufu (5 handlers)
+[GIN-debug] HEAD   /marki                    --> main.fufu (5 handlers)
+[GIN-debug] OPTIONS /marki                    --> main.fufu (5 handlers)
+[GIN-debug] DELETE /marki                    --> main.fufu (5 handlers)
+[GIN-debug] CONNECT /marki                    --> main.fufu (5 handlers)
+[GIN-debug] TRACE  /marki                    --> main.fufu (5 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :8081
+REQUEST BODY: {
+    "marks": [
+        "marka1",
+        "marka2",
+        "marka3"
+    ]
+}
+[GIN] 2024/06/12 - 23:01:40 | 400 |      15.354ms |             ::1 | POST     "/marki"
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /marki                    --> main.fufu (5 handlers)
+[GIN-debug] POST   /marki                    --> main.fufu (5 handlers)
+[GIN-debug] PUT    /marki                    --> main.fufu (5 handlers)
+[GIN-debug] PATCH  /marki                    --> main.fufu (5 handlers)
+[GIN-debug] HEAD   /marki                    --> main.fufu (5 handlers)
+[GIN-debug] OPTIONS /marki                    --> main.fufu (5 handlers)
+[GIN-debug] DELETE /marki                    --> main.fufu (5 handlers)
+[GIN-debug] CONNECT /marki                    --> main.fufu (5 handlers)
+[GIN-debug] TRACE  /marki                    --> main.fufu (5 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :8081
+
+REQUEST BODY: {
+    "marks": [
+        "marka1",
+        "marka2",
+        "marka3"
+    ]
+}
+[GIN] 2024/06/12 - 23:02:02 | 200 |      4.8115ms |             ::1 | POST     "/marki"
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /marki                    --> main.fufu (6 handlers)
+[GIN-debug] POST   /marki                    --> main.fufu (6 handlers)
+[GIN-debug] PUT    /marki                    --> main.fufu (6 handlers)
+[GIN-debug] PATCH  /marki                    --> main.fufu (6 handlers)
+[GIN-debug] HEAD   /marki                    --> main.fufu (6 handlers)
+[GIN-debug] OPTIONS /marki                    --> main.fufu (6 handlers)
+[GIN-debug] DELETE /marki                    --> main.fufu (6 handlers)
+[GIN-debug] CONNECT /marki                    --> main.fufu (6 handlers)
+[GIN-debug] TRACE  /marki                    --> main.fufu (6 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :8081
+[GIN] 2024/06/12 - 23:07:18 | 500 |       513.2µs |             ::1 | POST     "/marki"
+Error #01: Get "": unsupported protocol scheme ""
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /marki                    --> main.fufu (6 handlers)
+[GIN-debug] POST   /marki                    --> main.fufu (6 handlers)
+[GIN-debug] PUT    /marki                    --> main.fufu (6 handlers)
+[GIN-debug] PATCH  /marki                    --> main.fufu (6 handlers)
+[GIN-debug] HEAD   /marki                    --> main.fufu (6 handlers)
+[GIN-debug] OPTIONS /marki                    --> main.fufu (6 handlers)
+[GIN-debug] DELETE /marki                    --> main.fufu (6 handlers)
+[GIN-debug] CONNECT /marki                    --> main.fufu (6 handlers)
+[GIN-debug] TRACE  /marki                    --> main.fufu (6 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :8081
+[GIN] 2024/06/12 - 23:07:50 | 500 |         523µs |             ::1 | POST     "/marki"
+Error #01: Post "": unsupported protocol scheme ""
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /marki                    --> main.fufu (6 handlers)
+[GIN-debug] POST   /marki                    --> main.fufu (6 handlers)
+[GIN-debug] PUT    /marki                    --> main.fufu (6 handlers)
+[GIN-debug] PATCH  /marki                    --> main.fufu (6 handlers)
+[GIN-debug] HEAD   /marki                    --> main.fufu (6 handlers)
+[GIN-debug] OPTIONS /marki                    --> main.fufu (6 handlers)
+[GIN-debug] DELETE /marki                    --> main.fufu (6 handlers)
+[GIN-debug] CONNECT /marki                    --> main.fufu (6 handlers)
+[GIN-debug] TRACE  /marki                    --> main.fufu (6 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :8081
+[GIN] 2024/06/12 - 23:09:40 | 500 |            0s |             ::1 | POST     "/marki"
+Error #01: Post "http:": http: no Host in request URL
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /marki                    --> main.fufu (6 handlers)
+[GIN-debug] POST   /marki                    --> main.fufu (6 handlers)
+[GIN-debug] PUT    /marki                    --> main.fufu (6 handlers)
+[GIN-debug] PATCH  /marki                    --> main.fufu (6 handlers)
+[GIN-debug] HEAD   /marki                    --> main.fufu (6 handlers)
+[GIN-debug] OPTIONS /marki                    --> main.fufu (6 handlers)
+[GIN-debug] DELETE /marki                    --> main.fufu (6 handlers)
+[GIN-debug] CONNECT /marki                    --> main.fufu (6 handlers)
+[GIN-debug] TRACE  /marki                    --> main.fufu (6 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :8081
+[GIN] 2024/06/12 - 23:10:04 | 500 |            0s |             ::1 | POST     "/marki"
+Error #01: Post "http:": http: no Host in request URL
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /marki                    --> main.fufu (6 handlers)
+[GIN-debug] POST   /marki                    --> main.fufu (6 handlers)
+[GIN-debug] PUT    /marki                    --> main.fufu (6 handlers)
+[GIN-debug] PATCH  /marki                    --> main.fufu (6 handlers)
+[GIN-debug] HEAD   /marki                    --> main.fufu (6 handlers)
+[GIN-debug] OPTIONS /marki                    --> main.fufu (6 handlers)
+[GIN-debug] DELETE /marki                    --> main.fufu (6 handlers)
+[GIN-debug] CONNECT /marki                    --> main.fufu (6 handlers)
+[GIN-debug] TRACE  /marki                    --> main.fufu (6 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :8081
+[GIN] 2024/06/12 - 23:10:14 | 500 |       521.5µs |             ::1 | POST     "/marki"
+Error #01: Get "http:": http: no Host in request URL
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /marki                    --> main.fufu (6 handlers)
+[GIN-debug] POST   /marki                    --> main.fufu (6 handlers)
+[GIN-debug] PUT    /marki                    --> main.fufu (6 handlers)
+[GIN-debug] PATCH  /marki                    --> main.fufu (6 handlers)
+[GIN-debug] HEAD   /marki                    --> main.fufu (6 handlers)
+[GIN-debug] OPTIONS /marki                    --> main.fufu (6 handlers)
+[GIN-debug] DELETE /marki                    --> main.fufu (6 handlers)
+[GIN-debug] CONNECT /marki                    --> main.fufu (6 handlers)
+[GIN-debug] TRACE  /marki                    --> main.fufu (6 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :8081
+[GIN] 2024/06/12 - 23:11:50 | 500 |    2.2873445s |             ::1 | POST     "/marki"
+Error #01: Get "http://http//localhost:8087/": dial tcp: lookup http: no such host
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /marki                    --> main.fufu (6 handlers)
+[GIN-debug] POST   /marki                    --> main.fufu (6 handlers)
+[GIN-debug] PUT    /marki                    --> main.fufu (6 handlers)
+[GIN-debug] PATCH  /marki                    --> main.fufu (6 handlers)
+[GIN-debug] HEAD   /marki                    --> main.fufu (6 handlers)
+[GIN-debug] OPTIONS /marki                    --> main.fufu (6 handlers)
+[GIN-debug] DELETE /marki                    --> main.fufu (6 handlers)
+[GIN-debug] CONNECT /marki                    --> main.fufu (6 handlers)
+[GIN-debug] TRACE  /marki                    --> main.fufu (6 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :8081
+[GIN] 2024/06/12 - 23:12:10 | 404 |      5.6166ms |             ::1 | POST     "/marki"
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /marki                    --> main.fufu (6 handlers)
+[GIN-debug] POST   /marki                    --> main.fufu (6 handlers)
+[GIN-debug] PUT    /marki                    --> main.fufu (6 handlers)
+[GIN-debug] PATCH  /marki                    --> main.fufu (6 handlers)
+[GIN-debug] HEAD   /marki                    --> main.fufu (6 handlers)
+[GIN-debug] OPTIONS /marki                    --> main.fufu (6 handlers)
+[GIN-debug] DELETE /marki                    --> main.fufu (6 handlers)
+[GIN-debug] CONNECT /marki                    --> main.fufu (6 handlers)
+[GIN-debug] TRACE  /marki                    --> main.fufu (6 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :8081
+
+REQUEST BODY: {
+    "marks": [
+        "marka1",
+        "marka2",
+        "marka3"
+    ]
+}
+[GIN] 2024/06/12 - 23:15:39 | 200 |     20.3948ms |             ::1 | POST     "/marki"
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /marki                    --> main.fufu (6 handlers)
+[GIN-debug] POST   /marki                    --> main.fufu (6 handlers)
+[GIN-debug] PUT    /marki                    --> main.fufu (6 handlers)
+[GIN-debug] PATCH  /marki                    --> main.fufu (6 handlers)
+[GIN-debug] HEAD   /marki                    --> main.fufu (6 handlers)
+[GIN-debug] OPTIONS /marki                    --> main.fufu (6 handlers)
+[GIN-debug] DELETE /marki                    --> main.fufu (6 handlers)
+[GIN-debug] CONNECT /marki                    --> main.fufu (6 handlers)
+[GIN-debug] TRACE  /marki                    --> main.fufu (6 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :8081
+
+REQUEST BODY: 
+[GIN] 2024/06/12 - 23:17:47 | 400 |     13.4996ms |             ::1 | GET      "/marki"
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /marki                    --> main.fufu (5 handlers)
+[GIN-debug] POST   /marki                    --> main.fufu (5 handlers)
+[GIN-debug] PUT    /marki                    --> main.fufu (5 handlers)
+[GIN-debug] PATCH  /marki                    --> main.fufu (5 handlers)
+[GIN-debug] HEAD   /marki                    --> main.fufu (5 handlers)
+[GIN-debug] OPTIONS /marki                    --> main.fufu (5 handlers)
+[GIN-debug] DELETE /marki                    --> main.fufu (5 handlers)
+[GIN-debug] CONNECT /marki                    --> main.fufu (5 handlers)
+[GIN-debug] TRACE  /marki                    --> main.fufu (5 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :8081
+
+REQUEST BODY: {
+    "marks": [
+        "marka1",
+        "marka2",
+        "marka3"
+    ]
+}
+[GIN] 2024/06/12 - 23:18:53 | 200 |      5.4999ms |             ::1 | GET      "/marki"
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /marki                    --> main.fufu (6 handlers)
+[GIN-debug] POST   /marki                    --> main.fufu (6 handlers)
+[GIN-debug] PUT    /marki                    --> main.fufu (6 handlers)
+[GIN-debug] PATCH  /marki                    --> main.fufu (6 handlers)
+[GIN-debug] HEAD   /marki                    --> main.fufu (6 handlers)
+[GIN-debug] OPTIONS /marki                    --> main.fufu (6 handlers)
+[GIN-debug] DELETE /marki                    --> main.fufu (6 handlers)
+[GIN-debug] CONNECT /marki                    --> main.fufu (6 handlers)
+[GIN-debug] TRACE  /marki                    --> main.fufu (6 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :8081
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /marki                    --> main.fufu (6 handlers)
+[GIN-debug] POST   /marki                    --> main.fufu (6 handlers)
+[GIN-debug] PUT    /marki                    --> main.fufu (6 handlers)
+[GIN-debug] PATCH  /marki                    --> main.fufu (6 handlers)
+[GIN-debug] HEAD   /marki                    --> main.fufu (6 handlers)
+[GIN-debug] OPTIONS /marki                    --> main.fufu (6 handlers)
+[GIN-debug] DELETE /marki                    --> main.fufu (6 handlers)
+[GIN-debug] CONNECT /marki                    --> main.fufu (6 handlers)
+[GIN-debug] TRACE  /marki                    --> main.fufu (6 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :8081
+
+REQUEST BODY: {
+    "marks": [
+        "marka1",
+        "marka2",
+        "marka3"
+    ]
+}
+[GIN] 2024/06/12 - 23:21:33 | 200 |     13.0444ms |             ::1 | GET      "/marki"
+
+REQUEST BODY: {
+    "marks": [
+        "marka1",
+        "marka2",
+        "marka3"
+    ]
+}
+[GIN] 2024/06/12 - 23:21:47 | 200 |      5.4627ms |             ::1 | GET      "/marki"
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /marki                    --> main.fufu (5 handlers)
+[GIN-debug] POST   /marki                    --> main.fufu (5 handlers)
+[GIN-debug] PUT    /marki                    --> main.fufu (5 handlers)
+[GIN-debug] PATCH  /marki                    --> main.fufu (5 handlers)
+[GIN-debug] HEAD   /marki                    --> main.fufu (5 handlers)
+[GIN-debug] OPTIONS /marki                    --> main.fufu (5 handlers)
+[GIN-debug] DELETE /marki                    --> main.fufu (5 handlers)
+[GIN-debug] CONNECT /marki                    --> main.fufu (5 handlers)
+[GIN-debug] TRACE  /marki                    --> main.fufu (5 handlers)
+[GIN-debug] GET    /marki                    --> main.send (5 handlers)
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /marki                    --> main.fufu (5 handlers)
+[GIN-debug] POST   /marki                    --> main.fufu (5 handlers)
+[GIN-debug] PUT    /marki                    --> main.fufu (5 handlers)
+[GIN-debug] PATCH  /marki                    --> main.fufu (5 handlers)
+[GIN-debug] HEAD   /marki                    --> main.fufu (5 handlers)
+[GIN-debug] OPTIONS /marki                    --> main.fufu (5 handlers)
+[GIN-debug] DELETE /marki                    --> main.fufu (5 handlers)
+[GIN-debug] CONNECT /marki                    --> main.fufu (5 handlers)
+[GIN-debug] TRACE  /marki                    --> main.fufu (5 handlers)
+[GIN-debug] GET    /marki                    --> main.send (5 handlers)
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /marki                    --> main.fufu (6 handlers)
+[GIN-debug] POST   /marki                    --> main.fufu (6 handlers)
+[GIN-debug] PUT    /marki                    --> main.fufu (6 handlers)
+[GIN-debug] PATCH  /marki                    --> main.fufu (6 handlers)
+[GIN-debug] HEAD   /marki                    --> main.fufu (6 handlers)
+[GIN-debug] OPTIONS /marki                    --> main.fufu (6 handlers)
+[GIN-debug] DELETE /marki                    --> main.fufu (6 handlers)
+[GIN-debug] CONNECT /marki                    --> main.fufu (6 handlers)
+[GIN-debug] TRACE  /marki                    --> main.fufu (6 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :8081
+
+REQUEST BODY: {
+    "marks": [
+        "marka1",
+        "marka2",
+        "marka3"
+    ]
+}
+[GIN] 2024/06/12 - 23:23:55 | 200 |     16.6824ms |             ::1 | GET      "/marki"
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /marki                    --> main.SendEmptyGETRequest (5 handlers)
+[GIN-debug] GET    /marki                    --> main.fufu (5 handlers)
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /marki                    --> main.fufu (5 handlers)
+[GIN-debug] POST   /marki                    --> main.fufu (5 handlers)
+[GIN-debug] PUT    /marki                    --> main.fufu (5 handlers)
+[GIN-debug] PATCH  /marki                    --> main.fufu (5 handlers)
+[GIN-debug] HEAD   /marki                    --> main.fufu (5 handlers)
+[GIN-debug] OPTIONS /marki                    --> main.fufu (5 handlers)
+[GIN-debug] DELETE /marki                    --> main.fufu (5 handlers)
+[GIN-debug] CONNECT /marki                    --> main.fufu (5 handlers)
+[GIN-debug] TRACE  /marki                    --> main.fufu (5 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :8081
+
+REQUEST BODY: {
+    "marks": [
+        "marka1",
+        "marka2",
+        "marka3"
+    ]
+}
+[GIN] 2024/06/12 - 23:28:10 | 404 |     12.5322ms |             ::1 | GET      "/marki"
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /marki                    --> main.fufu (5 handlers)
+[GIN-debug] POST   /marki                    --> main.fufu (5 handlers)
+[GIN-debug] PUT    /marki                    --> main.fufu (5 handlers)
+[GIN-debug] PATCH  /marki                    --> main.fufu (5 handlers)
+[GIN-debug] HEAD   /marki                    --> main.fufu (5 handlers)
+[GIN-debug] OPTIONS /marki                    --> main.fufu (5 handlers)
+[GIN-debug] DELETE /marki                    --> main.fufu (5 handlers)
+[GIN-debug] CONNECT /marki                    --> main.fufu (5 handlers)
+[GIN-debug] TRACE  /marki                    --> main.fufu (5 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :8081
+
+REQUEST BODY: {
+    "marks": [
+        "marka1",
+        "marka2",
+        "marka3"
+    ]
+}
+[GIN] 2024/06/12 - 23:28:47 | 404 |     10.1863ms |             ::1 | POST     "/marki"
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /marki                    --> main.fufu (5 handlers)
+[GIN-debug] POST   /marki                    --> main.fufu (5 handlers)
+[GIN-debug] PUT    /marki                    --> main.fufu (5 handlers)
+[GIN-debug] PATCH  /marki                    --> main.fufu (5 handlers)
+[GIN-debug] HEAD   /marki                    --> main.fufu (5 handlers)
+[GIN-debug] OPTIONS /marki                    --> main.fufu (5 handlers)
+[GIN-debug] DELETE /marki                    --> main.fufu (5 handlers)
+[GIN-debug] CONNECT /marki                    --> main.fufu (5 handlers)
+[GIN-debug] TRACE  /marki                    --> main.fufu (5 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :8081
+[GIN] 2024/06/12 - 23:30:29 | 400 |      5.7864ms |             ::1 | POST     "/marki"
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /marki                    --> main.fufu (5 handlers)
+[GIN-debug] POST   /marki                    --> main.fufu (5 handlers)
+[GIN-debug] PUT    /marki                    --> main.fufu (5 handlers)
+[GIN-debug] PATCH  /marki                    --> main.fufu (5 handlers)
+[GIN-debug] HEAD   /marki                    --> main.fufu (5 handlers)
+[GIN-debug] OPTIONS /marki                    --> main.fufu (5 handlers)
+[GIN-debug] DELETE /marki                    --> main.fufu (5 handlers)
+[GIN-debug] CONNECT /marki                    --> main.fufu (5 handlers)
+[GIN-debug] TRACE  /marki                    --> main.fufu (5 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :8081
+[GIN] 2024/06/12 - 23:31:18 | 400 |     11.8196ms |             ::1 | POST     "/marki"
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /marki                    --> main.fufu (5 handlers)
+[GIN-debug] POST   /marki                    --> main.fufu (5 handlers)
+[GIN-debug] PUT    /marki                    --> main.fufu (5 handlers)
+[GIN-debug] PATCH  /marki                    --> main.fufu (5 handlers)
+[GIN-debug] HEAD   /marki                    --> main.fufu (5 handlers)
+[GIN-debug] OPTIONS /marki                    --> main.fufu (5 handlers)
+[GIN-debug] DELETE /marki                    --> main.fufu (5 handlers)
+[GIN-debug] CONNECT /marki                    --> main.fufu (5 handlers)
+[GIN-debug] TRACE  /marki                    --> main.fufu (5 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :8081
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /marki                    --> main.fufu (4 handlers)
+[GIN-debug] POST   /marki                    --> main.fufu (4 handlers)
+[GIN-debug] PUT    /marki                    --> main.fufu (4 handlers)
+[GIN-debug] PATCH  /marki                    --> main.fufu (4 handlers)
+[GIN-debug] HEAD   /marki                    --> main.fufu (4 handlers)
+[GIN-debug] OPTIONS /marki                    --> main.fufu (4 handlers)
+[GIN-debug] DELETE /marki                    --> main.fufu (4 handlers)
+[GIN-debug] CONNECT /marki                    --> main.fufu (4 handlers)
+[GIN-debug] TRACE  /marki                    --> main.fufu (4 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :8081
+[GIN] 2024/06/12 - 23:32:29 | 200 |       513.7µs |             ::1 | POST     "/marki"
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /marki                    --> main.fufu (5 handlers)
+[GIN-debug] POST   /marki                    --> main.fufu (5 handlers)
+[GIN-debug] PUT    /marki                    --> main.fufu (5 handlers)
+[GIN-debug] PATCH  /marki                    --> main.fufu (5 handlers)
+[GIN-debug] HEAD   /marki                    --> main.fufu (5 handlers)
+[GIN-debug] OPTIONS /marki                    --> main.fufu (5 handlers)
+[GIN-debug] DELETE /marki                    --> main.fufu (5 handlers)
+[GIN-debug] CONNECT /marki                    --> main.fufu (5 handlers)
+[GIN-debug] TRACE  /marki                    --> main.fufu (5 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :8081
+
+REQUEST BODY: {
+    "marks": [
+        "marka1",
+        "marka2",
+        "marka3"
+    ]
+}
+[GIN] 2024/06/12 - 23:32:49 | 200 |      5.3106ms |             ::1 | POST     "/marki"
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /marki                    --> main.fufu (5 handlers)
+[GIN-debug] POST   /marki                    --> main.fufu (5 handlers)
+[GIN-debug] PUT    /marki                    --> main.fufu (5 handlers)
+[GIN-debug] PATCH  /marki                    --> main.fufu (5 handlers)
+[GIN-debug] HEAD   /marki                    --> main.fufu (5 handlers)
+[GIN-debug] OPTIONS /marki                    --> main.fufu (5 handlers)
+[GIN-debug] DELETE /marki                    --> main.fufu (5 handlers)
+[GIN-debug] CONNECT /marki                    --> main.fufu (5 handlers)
+[GIN-debug] TRACE  /marki                    --> main.fufu (5 handlers)
+[GIN-debug] GET    /ping                     --> main.zzpr (5 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :8081
+
+REQUEST BODY: {
+    "marks": [
+        "marka1",
+        "marka2",
+        "marka3"
+    ]
+}
+[GIN] 2024/06/14 - 15:30:22 | 200 |       6.638ms |             ::1 | POST     "/marki"
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /marki                    --> main.fufu (5 handlers)
+[GIN-debug] POST   /marki                    --> main.fufu (5 handlers)
+[GIN-debug] PUT    /marki                    --> main.fufu (5 handlers)
+[GIN-debug] PATCH  /marki                    --> main.fufu (5 handlers)
+[GIN-debug] HEAD   /marki                    --> main.fufu (5 handlers)
+[GIN-debug] OPTIONS /marki                    --> main.fufu (5 handlers)
+[GIN-debug] DELETE /marki                    --> main.fufu (5 handlers)
+[GIN-debug] CONNECT /marki                    --> main.fufu (5 handlers)
+[GIN-debug] TRACE  /marki                    --> main.fufu (5 handlers)
+[GIN-debug] GET    /ping                     --> main.zpr (5 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :8081
+
+REQUEST BODY: {
+    "marks": [
+        "marka1",
+        "marka2",
+        "marka3"
+    ]
+}
+[GIN] 2024/06/14 - 15:31:22 | 200 |      4.8786ms |             ::1 | POST     "/marki"
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /marki                    --> main.fufu (5 handlers)
+[GIN-debug] POST   /marki                    --> main.fufu (5 handlers)
+[GIN-debug] PUT    /marki                    --> main.fufu (5 handlers)
+[GIN-debug] PATCH  /marki                    --> main.fufu (5 handlers)
+[GIN-debug] HEAD   /marki                    --> main.fufu (5 handlers)
+[GIN-debug] OPTIONS /marki                    --> main.fufu (5 handlers)
+[GIN-debug] DELETE /marki                    --> main.fufu (5 handlers)
+[GIN-debug] CONNECT /marki                    --> main.fufu (5 handlers)
+[GIN-debug] TRACE  /marki                    --> main.fufu (5 handlers)
+[GIN-debug] GET    /ping                     --> main.zpr (5 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :8081
+
+REQUEST BODY: {
+    "marks": [
+        "marka1",
+        "marka2",
+        "marka3"
+    ]
+}
+[GIN] 2024/06/14 - 15:31:46 | 200 |      5.6543ms |             ::1 | POST     "/marki"
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /marki                    --> main.fufu (5 handlers)
+[GIN-debug] POST   /marki                    --> main.fufu (5 handlers)
+[GIN-debug] PUT    /marki                    --> main.fufu (5 handlers)
+[GIN-debug] PATCH  /marki                    --> main.fufu (5 handlers)
+[GIN-debug] HEAD   /marki                    --> main.fufu (5 handlers)
+[GIN-debug] OPTIONS /marki                    --> main.fufu (5 handlers)
+[GIN-debug] DELETE /marki                    --> main.fufu (5 handlers)
+[GIN-debug] CONNECT /marki                    --> main.fufu (5 handlers)
+[GIN-debug] TRACE  /marki                    --> main.fufu (5 handlers)
+[GIN-debug] GET    /ping                     --> main.zpr (5 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :8081
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /marki                    --> main.fufu (5 handlers)
+[GIN-debug] POST   /marki                    --> main.fufu (5 handlers)
+[GIN-debug] PUT    /marki                    --> main.fufu (5 handlers)
+[GIN-debug] PATCH  /marki                    --> main.fufu (5 handlers)
+[GIN-debug] HEAD   /marki                    --> main.fufu (5 handlers)
+[GIN-debug] OPTIONS /marki                    --> main.fufu (5 handlers)
+[GIN-debug] DELETE /marki                    --> main.fufu (5 handlers)
+[GIN-debug] CONNECT /marki                    --> main.fufu (5 handlers)
+[GIN-debug] TRACE  /marki                    --> main.fufu (5 handlers)
+[GIN-debug] GET    /ping                     --> main.zpr (5 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :8081
+
+REQUEST BODY: {
+    "marks": [
+        "marka1",
+        "marka2",
+        "marka3"
+    ]
+}
+[GIN] 2024/06/14 - 15:33:00 | 200 |     11.0761ms |             ::1 | GET      "/ping"
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /marki                    --> main.fufu (5 handlers)
+[GIN-debug] POST   /marki                    --> main.fufu (5 handlers)
+[GIN-debug] PUT    /marki                    --> main.fufu (5 handlers)
+[GIN-debug] PATCH  /marki                    --> main.fufu (5 handlers)
+[GIN-debug] HEAD   /marki                    --> main.fufu (5 handlers)
+[GIN-debug] OPTIONS /marki                    --> main.fufu (5 handlers)
+[GIN-debug] DELETE /marki                    --> main.fufu (5 handlers)
+[GIN-debug] CONNECT /marki                    --> main.fufu (5 handlers)
+[GIN-debug] TRACE  /marki                    --> main.fufu (5 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :8081
+[GIN] 2024/06/14 - 15:34:41 | 500 |     11.1773ms |             ::1 | GET      "/marki"
+Error #01: Post "http://localhost:8086/": dial tcp 127.0.0.1:8086: connectex: No connection could be made because the target machine actively refused it.
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /marki                    --> main.fufu (5 handlers)
+[GIN-debug] POST   /marki                    --> main.fufu (5 handlers)
+[GIN-debug] PUT    /marki                    --> main.fufu (5 handlers)
+[GIN-debug] PATCH  /marki                    --> main.fufu (5 handlers)
+[GIN-debug] HEAD   /marki                    --> main.fufu (5 handlers)
+[GIN-debug] OPTIONS /marki                    --> main.fufu (5 handlers)
+[GIN-debug] DELETE /marki                    --> main.fufu (5 handlers)
+[GIN-debug] CONNECT /marki                    --> main.fufu (5 handlers)
+[GIN-debug] TRACE  /marki                    --> main.fufu (5 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :8081
+[GIN] 2024/06/14 - 15:35:05 | 500 |      6.2204ms |             ::1 | GET      "/marki"
+Error #01: Post "http://localhost:8086/": dial tcp 127.0.0.1:8086: connectex: No connection could be made because the target machine actively refused it.
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /marki                    --> main.fufu (5 handlers)
+[GIN-debug] POST   /marki                    --> main.fufu (5 handlers)
+[GIN-debug] PUT    /marki                    --> main.fufu (5 handlers)
+[GIN-debug] PATCH  /marki                    --> main.fufu (5 handlers)
+[GIN-debug] HEAD   /marki                    --> main.fufu (5 handlers)
+[GIN-debug] OPTIONS /marki                    --> main.fufu (5 handlers)
+[GIN-debug] DELETE /marki                    --> main.fufu (5 handlers)
+[GIN-debug] CONNECT /marki                    --> main.fufu (5 handlers)
+[GIN-debug] TRACE  /marki                    --> main.fufu (5 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :8081
+[GIN] 2024/06/14 - 15:35:25 | 400 |      6.0804ms |             ::1 | GET      "/marki"
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /marki                    --> main.fufu (4 handlers)
+[GIN-debug] POST   /marki                    --> main.fufu (4 handlers)
+[GIN-debug] PUT    /marki                    --> main.fufu (4 handlers)
+[GIN-debug] PATCH  /marki                    --> main.fufu (4 handlers)
+[GIN-debug] HEAD   /marki                    --> main.fufu (4 handlers)
+[GIN-debug] OPTIONS /marki                    --> main.fufu (4 handlers)
+[GIN-debug] DELETE /marki                    --> main.fufu (4 handlers)
+[GIN-debug] CONNECT /marki                    --> main.fufu (4 handlers)
+[GIN-debug] TRACE  /marki                    --> main.fufu (4 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :8081
+[GIN] 2024/06/14 - 15:36:25 | 200 |      2.1895ms |             ::1 | GET      "/marki"
+[GIN] 2024/06/14 - 15:36:58 | 400 |       404.2µs |             ::1 | GET      "/marki"
+[GIN] 2024/06/14 - 15:37:11 | 200 |       566.3µs |             ::1 | GET      "/marki"
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /marki                    --> main.fufu (5 handlers)
+[GIN-debug] POST   /marki                    --> main.fufu (5 handlers)
+[GIN-debug] PUT    /marki                    --> main.fufu (5 handlers)
+[GIN-debug] PATCH  /marki                    --> main.fufu (5 handlers)
+[GIN-debug] HEAD   /marki                    --> main.fufu (5 handlers)
+[GIN-debug] OPTIONS /marki                    --> main.fufu (5 handlers)
+[GIN-debug] DELETE /marki                    --> main.fufu (5 handlers)
+[GIN-debug] CONNECT /marki                    --> main.fufu (5 handlers)
+[GIN-debug] TRACE  /marki                    --> main.fufu (5 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :8081
+[GIN] 2024/06/14 - 15:40:18 | 400 |      9.5794ms |             ::1 | GET      "/marki"
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /marki                    --> main.main.Logger.func1 (4 handlers)
+[GIN-debug] POST   /marki                    --> main.main.Logger.func1 (4 handlers)
+[GIN-debug] PUT    /marki                    --> main.main.Logger.func1 (4 handlers)
+[GIN-debug] PATCH  /marki                    --> main.main.Logger.func1 (4 handlers)
+[GIN-debug] HEAD   /marki                    --> main.main.Logger.func1 (4 handlers)
+[GIN-debug] OPTIONS /marki                    --> main.main.Logger.func1 (4 handlers)
+[GIN-debug] DELETE /marki                    --> main.main.Logger.func1 (4 handlers)
+[GIN-debug] CONNECT /marki                    --> main.main.Logger.func1 (4 handlers)
+[GIN-debug] TRACE  /marki                    --> main.main.Logger.func1 (4 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :8081
+[GIN] 2024/06/14 - 15:42:09 | 200 |      6.0254ms |             ::1 | GET      "/marki"
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /marki                    --> main.main.Logger.func1 (3 handlers)
+[GIN-debug] POST   /marki                    --> main.main.Logger.func1 (3 handlers)
+[GIN-debug] PUT    /marki                    --> main.main.Logger.func1 (3 handlers)
+[GIN-debug] PATCH  /marki                    --> main.main.Logger.func1 (3 handlers)
+[GIN-debug] HEAD   /marki                    --> main.main.Logger.func1 (3 handlers)
+[GIN-debug] OPTIONS /marki                    --> main.main.Logger.func1 (3 handlers)
+[GIN-debug] DELETE /marki                    --> main.main.Logger.func1 (3 handlers)
+[GIN-debug] CONNECT /marki                    --> main.main.Logger.func1 (3 handlers)
+[GIN-debug] TRACE  /marki                    --> main.main.Logger.func1 (3 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :8081
+[GIN] 2024/06/14 - 15:42:28 | 200 |      6.2498ms |             ::1 | GET      "/marki"
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /*marki                   --> main.main.Logger.func1 (3 handlers)
+[GIN-debug] POST   /*marki                   --> main.main.Logger.func1 (3 handlers)
+[GIN-debug] PUT    /*marki                   --> main.main.Logger.func1 (3 handlers)
+[GIN-debug] PATCH  /*marki                   --> main.main.Logger.func1 (3 handlers)
+[GIN-debug] HEAD   /*marki                   --> main.main.Logger.func1 (3 handlers)
+[GIN-debug] OPTIONS /*marki                   --> main.main.Logger.func1 (3 handlers)
+[GIN-debug] DELETE /*marki                   --> main.main.Logger.func1 (3 handlers)
+[GIN-debug] CONNECT /*marki                   --> main.main.Logger.func1 (3 handlers)
+[GIN-debug] TRACE  /*marki                   --> main.main.Logger.func1 (3 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :8081
+[GIN] 2024/06/14 - 15:43:12 | 200 |      6.6994ms |             ::1 | GET      "/marki"
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /*marki                   --> main.fufu (5 handlers)
+[GIN-debug] POST   /*marki                   --> main.fufu (5 handlers)
+[GIN-debug] PUT    /*marki                   --> main.fufu (5 handlers)
+[GIN-debug] PATCH  /*marki                   --> main.fufu (5 handlers)
+[GIN-debug] HEAD   /*marki                   --> main.fufu (5 handlers)
+[GIN-debug] OPTIONS /*marki                   --> main.fufu (5 handlers)
+[GIN-debug] DELETE /*marki                   --> main.fufu (5 handlers)
+[GIN-debug] CONNECT /*marki                   --> main.fufu (5 handlers)
+[GIN-debug] TRACE  /*marki                   --> main.fufu (5 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :8081
+
+REQUEST BODY: {
+    "marks": [
+        "marka1",
+        "marka2",
+        "marka3",
+        "sdafasdgf"
+    ]
+}
+[GIN] 2024/06/14 - 15:44:18 | 200 |     32.2716ms |             ::1 | GET      "/marki"
+
+REQUEST BODY: {
+    "marks": [
+        "marka1",
+        "marka2",
+        "marka3",
+        "hui"
+    ]
+}
+[GIN] 2024/06/14 - 15:44:31 | 200 |      5.0748ms |             ::1 | GET      "/marki"
+
+REQUEST BODY: {
+    "marks": [
+        "marka1",
+        "marka2",
+        "marka3",
+        "hui"
+    ]
+}
+[GIN] 2024/06/14 - 15:44:57 | 200 |       931.2µs |             ::1 | POST     "/marki"
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /*marki                   --> main.fufu (5 handlers)
+[GIN-debug] POST   /*marki                   --> main.fufu (5 handlers)
+[GIN-debug] PUT    /*marki                   --> main.fufu (5 handlers)
+[GIN-debug] PATCH  /*marki                   --> main.fufu (5 handlers)
+[GIN-debug] HEAD   /*marki                   --> main.fufu (5 handlers)
+[GIN-debug] OPTIONS /*marki                   --> main.fufu (5 handlers)
+[GIN-debug] DELETE /*marki                   --> main.fufu (5 handlers)
+[GIN-debug] CONNECT /*marki                   --> main.fufu (5 handlers)
+[GIN-debug] TRACE  /*marki                   --> main.fufu (5 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :8081
+
+REQUEST BODY: {
+    "marks": [
+        "marka1",
+        "marka2",
+        "marka3",
+        "hui"
+    ]
+}
+[GIN] 2024/06/14 - 15:48:59 | 200 |      6.1907ms |             ::1 | POST     "/marki"
+
+REQUEST BODY: {
+    "marks": [
+        "marka1",
+        "marka2",
+        "marka3",
+        "hui"
+    ]
+}
+[GIN] 2024/06/14 - 15:49:13 | 200 |      1.1927ms |             ::1 | POST     "/marki"
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /*marki                   --> main.fufu (5 handlers)
+[GIN-debug] POST   /*marki                   --> main.fufu (5 handlers)
+[GIN-debug] PUT    /*marki                   --> main.fufu (5 handlers)
+[GIN-debug] PATCH  /*marki                   --> main.fufu (5 handlers)
+[GIN-debug] HEAD   /*marki                   --> main.fufu (5 handlers)
+[GIN-debug] OPTIONS /*marki                   --> main.fufu (5 handlers)
+[GIN-debug] DELETE /*marki                   --> main.fufu (5 handlers)
+[GIN-debug] CONNECT /*marki                   --> main.fufu (5 handlers)
+[GIN-debug] TRACE  /*marki                   --> main.fufu (5 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :8081
+
+REQUEST BODY: {
+    "marks": [
+        "marka1",
+        "marka2",
+        "marka3",
+        "hui"
+    ]
+}
+[GIN] 2024/06/14 - 15:51:08 | 200 |      5.1025ms |             ::1 | GET      "/marki"
+
+REQUEST BODY: {
+    "marks": [
+        "marka1",
+        "marka2",
+        "marka3",
+        "hui"
+    ]
+}
+[GIN] 2024/06/14 - 15:51:26 | 200 |      5.5086ms |             ::1 | GET      "/marki"
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /*marki                   --> main.fufu (5 handlers)
+[GIN-debug] POST   /*marki                   --> main.fufu (5 handlers)
+[GIN-debug] PUT    /*marki                   --> main.fufu (5 handlers)
+[GIN-debug] PATCH  /*marki                   --> main.fufu (5 handlers)
+[GIN-debug] HEAD   /*marki                   --> main.fufu (5 handlers)
+[GIN-debug] OPTIONS /*marki                   --> main.fufu (5 handlers)
+[GIN-debug] DELETE /*marki                   --> main.fufu (5 handlers)
+[GIN-debug] CONNECT /*marki                   --> main.fufu (5 handlers)
+[GIN-debug] TRACE  /*marki                   --> main.fufu (5 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :8081
+
+REQUEST BODY: {
+    "marks": [
+        "marka1",
+        "marka2",
+        "marka3",
+        "hui"
+    ]
+}
+[GIN] 2024/06/14 - 15:53:21 | 200 |      5.0921ms |             ::1 | GET      "/marki"
+
+REQUEST BODY: {
+    "marks": [
+        "marka1",
+        "marka2",
+        "marka3",
+        "hui"
+    ]
+}
+[GIN] 2024/06/14 - 15:54:55 | 200 |      5.2537ms |             ::1 | GET      "/marki"
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /marki                    --> main.fufu (5 handlers)
+[GIN-debug] POST   /marki                    --> main.fufu (5 handlers)
+[GIN-debug] PUT    /marki                    --> main.fufu (5 handlers)
+[GIN-debug] PATCH  /marki                    --> main.fufu (5 handlers)
+[GIN-debug] HEAD   /marki                    --> main.fufu (5 handlers)
+[GIN-debug] OPTIONS /marki                    --> main.fufu (5 handlers)
+[GIN-debug] DELETE /marki                    --> main.fufu (5 handlers)
+[GIN-debug] CONNECT /marki                    --> main.fufu (5 handlers)
+[GIN-debug] TRACE  /marki                    --> main.fufu (5 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :8081
+
+REQUEST BODY: {
+    "marks": [
+        "marka1",
+        "marka2",
+        "marka3",
+        "hui"
+    ]
+}
+[GIN] 2024/06/14 - 15:56:56 | 200 |      5.6575ms |             ::1 | GET      "/marki"
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /marki                    --> main.fufu (5 handlers)
+[GIN-debug] POST   /marki                    --> main.fufu (5 handlers)
+[GIN-debug] PUT    /marki                    --> main.fufu (5 handlers)
+[GIN-debug] PATCH  /marki                    --> main.fufu (5 handlers)
+[GIN-debug] HEAD   /marki                    --> main.fufu (5 handlers)
+[GIN-debug] OPTIONS /marki                    --> main.fufu (5 handlers)
+[GIN-debug] DELETE /marki                    --> main.fufu (5 handlers)
+[GIN-debug] CONNECT /marki                    --> main.fufu (5 handlers)
+[GIN-debug] TRACE  /marki                    --> main.fufu (5 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :8081
+
+REQUEST BODY: {
+    "marks": [
+        "marka1",
+        "marka2",
+        "marka3",
+        "hui"
+    ]
+}
+[GIN] 2024/06/14 - 15:57:40 | 200 |      5.6145ms |             ::1 | GET      "/marki"
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /marki                    --> main.fufu (6 handlers)
+[GIN-debug] POST   /marki                    --> main.fufu (6 handlers)
+[GIN-debug] PUT    /marki                    --> main.fufu (6 handlers)
+[GIN-debug] PATCH  /marki                    --> main.fufu (6 handlers)
+[GIN-debug] HEAD   /marki                    --> main.fufu (6 handlers)
+[GIN-debug] OPTIONS /marki                    --> main.fufu (6 handlers)
+[GIN-debug] DELETE /marki                    --> main.fufu (6 handlers)
+[GIN-debug] CONNECT /marki                    --> main.fufu (6 handlers)
+[GIN-debug] TRACE  /marki                    --> main.fufu (6 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :8081
+
+REQUEST BODY: {
+    "marks": [
+        "marka1",
+        "marka2",
+        "marka3",
+        "231"
+    ]
+}
+[GIN] 2024/06/14 - 16:00:24 | 200 |     14.3645ms |             ::1 | GET      "/marki"
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /marki                    --> main.fufu (6 handlers)
+[GIN-debug] POST   /marki                    --> main.fufu (6 handlers)
+[GIN-debug] PUT    /marki                    --> main.fufu (6 handlers)
+[GIN-debug] PATCH  /marki                    --> main.fufu (6 handlers)
+[GIN-debug] HEAD   /marki                    --> main.fufu (6 handlers)
+[GIN-debug] OPTIONS /marki                    --> main.fufu (6 handlers)
+[GIN-debug] DELETE /marki                    --> main.fufu (6 handlers)
+[GIN-debug] CONNECT /marki                    --> main.fufu (6 handlers)
+[GIN-debug] TRACE  /marki                    --> main.fufu (6 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :8081
+
+REQUEST BODY: {
+    "marks": [
+        "marka1",
+        "marka2",
+        "marka3",
+        "231"
+    ]
+}
+[GIN] 2024/06/14 - 16:03:12 | 200 |      10.419ms |             ::1 | GET      "/marki"
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /marki                    --> main.fufu (5 handlers)
+[GIN-debug] POST   /marki                    --> main.fufu (5 handlers)
+[GIN-debug] PUT    /marki                    --> main.fufu (5 handlers)
+[GIN-debug] PATCH  /marki                    --> main.fufu (5 handlers)
+[GIN-debug] HEAD   /marki                    --> main.fufu (5 handlers)
+[GIN-debug] OPTIONS /marki                    --> main.fufu (5 handlers)
+[GIN-debug] DELETE /marki                    --> main.fufu (5 handlers)
+[GIN-debug] CONNECT /marki                    --> main.fufu (5 handlers)
+[GIN-debug] TRACE  /marki                    --> main.fufu (5 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :8081
+[GIN] 2024/06/14 - 16:05:57 | 400 |    102.5392ms |             ::1 | GET      "/marki"
+[GIN] 2024/06/14 - 16:06:10 | 400 |       511.6µs |             ::1 | GET      "/marki"
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /marki                    --> main.fufu (5 handlers)
+[GIN-debug] POST   /marki                    --> main.fufu (5 handlers)
+[GIN-debug] PUT    /marki                    --> main.fufu (5 handlers)
+[GIN-debug] PATCH  /marki                    --> main.fufu (5 handlers)
+[GIN-debug] HEAD   /marki                    --> main.fufu (5 handlers)
+[GIN-debug] OPTIONS /marki                    --> main.fufu (5 handlers)
+[GIN-debug] DELETE /marki                    --> main.fufu (5 handlers)
+[GIN-debug] CONNECT /marki                    --> main.fufu (5 handlers)
+[GIN-debug] TRACE  /marki                    --> main.fufu (5 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :8081
+[GIN] 2024/06/14 - 16:06:36 | 400 |      7.2269ms |             ::1 | GET      "/marki"
+[GIN] 2024/06/14 - 16:07:58 | 400 |      3.2061ms |             ::1 | GET      "/marki"
+[GIN] 2024/06/14 - 16:08:25 | 400 |      3.1681ms |             ::1 | GET      "/marki"
+[GIN] 2024/06/14 - 16:08:52 | 400 |      3.4436ms |             ::1 | GET      "/marki"
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /marki                    --> main.fufu (5 handlers)
+[GIN-debug] POST   /marki                    --> main.fufu (5 handlers)
+[GIN-debug] PUT    /marki                    --> main.fufu (5 handlers)
+[GIN-debug] PATCH  /marki                    --> main.fufu (5 handlers)
+[GIN-debug] HEAD   /marki                    --> main.fufu (5 handlers)
+[GIN-debug] OPTIONS /marki                    --> main.fufu (5 handlers)
+[GIN-debug] DELETE /marki                    --> main.fufu (5 handlers)
+[GIN-debug] CONNECT /marki                    --> main.fufu (5 handlers)
+[GIN-debug] TRACE  /marki                    --> main.fufu (5 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :8081
+[GIN] 2024/06/14 - 16:10:33 | 400 |     20.4736ms |             ::1 | GET      "/marki"
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /marki                    --> main.fufu (5 handlers)
+[GIN-debug] POST   /marki                    --> main.fufu (5 handlers)
+[GIN-debug] PUT    /marki                    --> main.fufu (5 handlers)
+[GIN-debug] PATCH  /marki                    --> main.fufu (5 handlers)
+[GIN-debug] HEAD   /marki                    --> main.fufu (5 handlers)
+[GIN-debug] OPTIONS /marki                    --> main.fufu (5 handlers)
+[GIN-debug] DELETE /marki                    --> main.fufu (5 handlers)
+[GIN-debug] CONNECT /marki                    --> main.fufu (5 handlers)
+[GIN-debug] TRACE  /marki                    --> main.fufu (5 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :8081
+
+REQUEST BODY: {
+    "marks": [
+        "marka1",
+        "marka2",
+        "marka3",
+        "231"
+    ]
+}
+[GIN] 2024/06/14 - 16:12:31 | 200 |      5.3358ms |             ::1 | GET      "/marki"
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /marki                    --> main.fufu (5 handlers)
+[GIN-debug] POST   /marki                    --> main.fufu (5 handlers)
+[GIN-debug] PUT    /marki                    --> main.fufu (5 handlers)
+[GIN-debug] PATCH  /marki                    --> main.fufu (5 handlers)
+[GIN-debug] HEAD   /marki                    --> main.fufu (5 handlers)
+[GIN-debug] OPTIONS /marki                    --> main.fufu (5 handlers)
+[GIN-debug] DELETE /marki                    --> main.fufu (5 handlers)
+[GIN-debug] CONNECT /marki                    --> main.fufu (5 handlers)
+[GIN-debug] TRACE  /marki                    --> main.fufu (5 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :8081
+
+REQUEST BODY: {
+    "marks": [
+        "marka1",
+        "marka2",
+        "marka3",
+        "231"
+    ]
+}
+[GIN] 2024/06/14 - 16:12:46 | 200 |      4.4749ms |             ::1 | GET      "/marki"
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /marki                    --> main.fufu (5 handlers)
+[GIN-debug] POST   /marki                    --> main.fufu (5 handlers)
+[GIN-debug] PUT    /marki                    --> main.fufu (5 handlers)
+[GIN-debug] PATCH  /marki                    --> main.fufu (5 handlers)
+[GIN-debug] HEAD   /marki                    --> main.fufu (5 handlers)
+[GIN-debug] OPTIONS /marki                    --> main.fufu (5 handlers)
+[GIN-debug] DELETE /marki                    --> main.fufu (5 handlers)
+[GIN-debug] CONNECT /marki                    --> main.fufu (5 handlers)
+[GIN-debug] TRACE  /marki                    --> main.fufu (5 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :8081
+
+REQUEST BODY: {
+    "marks": [
+        "marka1",
+        "marka2",
+        "marka3",
+        "231"
+    ]
+}
+[GIN] 2024/06/14 - 16:13:11 | 200 |      8.1401ms |             ::1 | GET      "/marki"
+
+REQUEST BODY: {
+    "marks": [
+        "marka1",
+        "marka2",
+        "marka3",
+        "231"
+    ]
+}
+[GIN] 2024/06/14 - 16:13:53 | 200 |      5.0984ms |             ::1 | GET      "/marki"
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /marki                    --> main.fufu (5 handlers)
+[GIN-debug] POST   /marki                    --> main.fufu (5 handlers)
+[GIN-debug] PUT    /marki                    --> main.fufu (5 handlers)
+[GIN-debug] PATCH  /marki                    --> main.fufu (5 handlers)
+[GIN-debug] HEAD   /marki                    --> main.fufu (5 handlers)
+[GIN-debug] OPTIONS /marki                    --> main.fufu (5 handlers)
+[GIN-debug] DELETE /marki                    --> main.fufu (5 handlers)
+[GIN-debug] CONNECT /marki                    --> main.fufu (5 handlers)
+[GIN-debug] TRACE  /marki                    --> main.fufu (5 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :8081
+
+REQUEST BODY: {
+    "marks": [
+        "marka1",
+        "marka2",
+        "marka3",
+        "231"
+    ]
+}
+[GIN] 2024/06/14 - 16:15:06 | 200 |      5.7352ms |             ::1 | GET      "/marki"
+
+REQUEST BODY: {
+    "marks": [
+        "marka1",
+        "marka2",
+        "marka3",
+        "88005553535"
+    ]
+}
+[GIN] 2024/06/14 - 16:15:22 | 200 |       112.5µs |             ::1 | GET      "/marki"
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /marki                    --> main.fufu (5 handlers)
+[GIN-debug] POST   /marki                    --> main.fufu (5 handlers)
+[GIN-debug] PUT    /marki                    --> main.fufu (5 handlers)
+[GIN-debug] PATCH  /marki                    --> main.fufu (5 handlers)
+[GIN-debug] HEAD   /marki                    --> main.fufu (5 handlers)
+[GIN-debug] OPTIONS /marki                    --> main.fufu (5 handlers)
+[GIN-debug] DELETE /marki                    --> main.fufu (5 handlers)
+[GIN-debug] CONNECT /marki                    --> main.fufu (5 handlers)
+[GIN-debug] TRACE  /marki                    --> main.fufu (5 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :8081
+[GIN] 2024/06/15 - 13:34:34 | 400 |     39.8554ms |             ::1 | GET      "/marki"
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /marki                    --> main.fufu (4 handlers)
+[GIN-debug] POST   /marki                    --> main.fufu (4 handlers)
+[GIN-debug] PUT    /marki                    --> main.fufu (4 handlers)
+[GIN-debug] PATCH  /marki                    --> main.fufu (4 handlers)
+[GIN-debug] HEAD   /marki                    --> main.fufu (4 handlers)
+[GIN-debug] OPTIONS /marki                    --> main.fufu (4 handlers)
+[GIN-debug] DELETE /marki                    --> main.fufu (4 handlers)
+[GIN-debug] CONNECT /marki                    --> main.fufu (4 handlers)
+[GIN-debug] TRACE  /marki                    --> main.fufu (4 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :8081
+[GIN] 2024/06/15 - 13:35:36 | 200 |      1.0467ms |             ::1 | GET      "/marki"
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /marki                    --> main.fufu (5 handlers)
+[GIN-debug] POST   /marki                    --> main.fufu (5 handlers)
+[GIN-debug] PUT    /marki                    --> main.fufu (5 handlers)
+[GIN-debug] PATCH  /marki                    --> main.fufu (5 handlers)
+[GIN-debug] HEAD   /marki                    --> main.fufu (5 handlers)
+[GIN-debug] OPTIONS /marki                    --> main.fufu (5 handlers)
+[GIN-debug] DELETE /marki                    --> main.fufu (5 handlers)
+[GIN-debug] CONNECT /marki                    --> main.fufu (5 handlers)
+[GIN-debug] TRACE  /marki                    --> main.fufu (5 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :8081
+[GIN] 2024/06/15 - 13:36:06 | 400 |      8.2534ms |             ::1 | GET      "/marki"
+[GIN] 2024/06/15 - 13:38:22 | 400 |     16.2242ms |             ::1 | GET      "/marki"
+[GIN] 2024/06/15 - 13:38:36 | 400 |      1.9513ms |             ::1 | GET      "/marki"
+[GIN] 2024/06/15 - 13:42:15 | 400 |     18.6479ms |             ::1 | GET      "/marki"
+[GIN] 2024/06/15 - 13:42:20 | 400 |      1.8795ms |             ::1 | GET      "/marki"
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /marki                    --> main.fufu (5 handlers)
+[GIN-debug] POST   /marki                    --> main.fufu (5 handlers)
+[GIN-debug] PUT    /marki                    --> main.fufu (5 handlers)
+[GIN-debug] PATCH  /marki                    --> main.fufu (5 handlers)
+[GIN-debug] HEAD   /marki                    --> main.fufu (5 handlers)
+[GIN-debug] OPTIONS /marki                    --> main.fufu (5 handlers)
+[GIN-debug] DELETE /marki                    --> main.fufu (5 handlers)
+[GIN-debug] CONNECT /marki                    --> main.fufu (5 handlers)
+[GIN-debug] TRACE  /marki                    --> main.fufu (5 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :8081
+[GIN] 2024/06/15 - 13:47:14 | 400 |     21.1228ms |             ::1 | GET      "/marki"
+[GIN] 2024/06/15 - 13:47:24 | 400 |     18.6598ms |             ::1 | GET      "/marki"
+[GIN] 2024/06/15 - 13:48:26 | 400 |     16.8544ms |             ::1 | GET      "/marki"
+[GIN] 2024/06/15 - 14:27:12 | 400 |     58.5954ms |             ::1 | GET      "/marki"
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /marki                    --> main.fufu (5 handlers)
+[GIN-debug] POST   /marki                    --> main.fufu (5 handlers)
+[GIN-debug] PUT    /marki                    --> main.fufu (5 handlers)
+[GIN-debug] PATCH  /marki                    --> main.fufu (5 handlers)
+[GIN-debug] HEAD   /marki                    --> main.fufu (5 handlers)
+[GIN-debug] OPTIONS /marki                    --> main.fufu (5 handlers)
+[GIN-debug] DELETE /marki                    --> main.fufu (5 handlers)
+[GIN-debug] CONNECT /marki                    --> main.fufu (5 handlers)
+[GIN-debug] TRACE  /marki                    --> main.fufu (5 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :8081
+[GIN] 2024/06/15 - 16:19:19 | 400 |     31.2346ms |             ::1 | GET      "/marki"
+[GIN] 2024/06/15 - 16:20:40 | 400 |    567.5571ms |             ::1 | GET      "/marki"
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /marki                    --> main.fufu (5 handlers)
+[GIN-debug] POST   /marki                    --> main.fufu (5 handlers)
+[GIN-debug] PUT    /marki                    --> main.fufu (5 handlers)
+[GIN-debug] PATCH  /marki                    --> main.fufu (5 handlers)
+[GIN-debug] HEAD   /marki                    --> main.fufu (5 handlers)
+[GIN-debug] OPTIONS /marki                    --> main.fufu (5 handlers)
+[GIN-debug] DELETE /marki                    --> main.fufu (5 handlers)
+[GIN-debug] CONNECT /marki                    --> main.fufu (5 handlers)
+[GIN-debug] TRACE  /marki                    --> main.fufu (5 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :8081
+[GIN] 2024/06/15 - 16:22:10 | 400 |     20.2789ms |             ::1 | GET      "/marki"
+[GIN] 2024/06/15 - 16:23:18 | 400 |      5.8033ms |             ::1 | GET      "/marki"
+[GIN] 2024/06/15 - 16:23:52 | 400 |      3.3358ms |             ::1 | GET      "/marki"
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /marki                    --> main.fufu (5 handlers)
+[GIN-debug] POST   /marki                    --> main.fufu (5 handlers)
+[GIN-debug] PUT    /marki                    --> main.fufu (5 handlers)
+[GIN-debug] PATCH  /marki                    --> main.fufu (5 handlers)
+[GIN-debug] HEAD   /marki                    --> main.fufu (5 handlers)
+[GIN-debug] OPTIONS /marki                    --> main.fufu (5 handlers)
+[GIN-debug] DELETE /marki                    --> main.fufu (5 handlers)
+[GIN-debug] CONNECT /marki                    --> main.fufu (5 handlers)
+[GIN-debug] TRACE  /marki                    --> main.fufu (5 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :8081
+[GIN] 2024/06/15 - 16:24:38 | 400 |     29.1086ms |             ::1 | GET      "/marki"
+[GIN] 2024/06/15 - 16:24:50 | 400 |     19.5072ms |             ::1 | GET      "/marki"
+[GIN] 2024/06/15 - 16:25:19 | 400 |     37.5264ms |             ::1 | GET      "/marki"
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /marki                    --> main.fufu (5 handlers)
+[GIN-debug] POST   /marki                    --> main.fufu (5 handlers)
+[GIN-debug] PUT    /marki                    --> main.fufu (5 handlers)
+[GIN-debug] PATCH  /marki                    --> main.fufu (5 handlers)
+[GIN-debug] HEAD   /marki                    --> main.fufu (5 handlers)
+[GIN-debug] OPTIONS /marki                    --> main.fufu (5 handlers)
+[GIN-debug] DELETE /marki                    --> main.fufu (5 handlers)
+[GIN-debug] CONNECT /marki                    --> main.fufu (5 handlers)
+[GIN-debug] TRACE  /marki                    --> main.fufu (5 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :8081
+[GIN] 2024/06/15 - 16:28:05 | 400 |     83.4683ms |             ::1 | GET      "/marki"
+[GIN] 2024/06/15 - 16:28:32 | 400 |     14.2047ms |             ::1 | GET      "/marki"
+[GIN] 2024/06/15 - 16:28:50 | 400 |     17.1716ms |             ::1 | GET      "/marki"
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /marki                    --> main.fufu (5 handlers)
+[GIN-debug] POST   /marki                    --> main.fufu (5 handlers)
+[GIN-debug] PUT    /marki                    --> main.fufu (5 handlers)
+[GIN-debug] PATCH  /marki                    --> main.fufu (5 handlers)
+[GIN-debug] HEAD   /marki                    --> main.fufu (5 handlers)
+[GIN-debug] OPTIONS /marki                    --> main.fufu (5 handlers)
+[GIN-debug] DELETE /marki                    --> main.fufu (5 handlers)
+[GIN-debug] CONNECT /marki                    --> main.fufu (5 handlers)
+[GIN-debug] TRACE  /marki                    --> main.fufu (5 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :8081
+[GIN] 2024/06/15 - 16:41:36 | 500 |     69.1545ms |             ::1 | GET      "/marki"
+Error #01: Post "http://localhost:8082/": read tcp 127.0.0.1:61118->127.0.0.1:8082: wsarecv: An existing connection was forcibly closed by the remote host.
+[GIN] 2024/06/15 - 16:42:19 | 500 |      4.0459ms |             ::1 | GET      "/marki"
+Error #01: Post "http://localhost:8082/": dial tcp 127.0.0.1:8082: connectex: No connection could be made because the target machine actively refused it.
+[GIN] 2024/06/15 - 16:42:29 | 500 |       2.215ms |             ::1 | GET      "/marki"
+Error #01: Post "http://localhost:8082/": dial tcp 127.0.0.1:8082: connectex: No connection could be made because the target machine actively refused it.
+[GIN] 2024/06/15 - 16:46:39 | 500 |     34.4574ms |             ::1 | GET      "/marki"
+Error #01: Post "http://localhost:8082/": read tcp 127.0.0.1:61333->127.0.0.1:8082: wsarecv: An existing connection was forcibly closed by the remote host.
+[GIN] 2024/06/15 - 16:49:28 | 500 |     36.0644ms |             ::1 | GET      "/marki"
+Error #01: Post "http://localhost:8082/": read tcp 127.0.0.1:61477->127.0.0.1:8082: wsarecv: An existing connection was forcibly closed by the remote host.
+[GIN] 2024/06/15 - 16:50:03 | 400 |       62.52ms |             ::1 | GET      "/marki"
+[GIN] 2024/06/15 - 16:50:23 | 400 |     14.3231ms |             ::1 | GET      "/marki"
+[GIN] 2024/06/15 - 16:51:00 | 400 |     33.1607ms |             ::1 | GET      "/marki"
+[GIN] 2024/06/15 - 16:51:02 | 400 |     21.7426ms |             ::1 | GET      "/marki"
+[GIN] 2024/06/15 - 16:53:06 | 400 |     33.4062ms |             ::1 | GET      "/marki"
+[GIN] 2024/06/15 - 16:54:41 | 500 |     24.1028ms |             ::1 | GET      "/marki"
+Error #01: Post "http://localhost:8082/": read tcp 127.0.0.1:61717->127.0.0.1:8082: wsarecv: An existing connection was forcibly closed by the remote host.
+[GIN] 2024/06/15 - 17:00:45 | 500 |     17.5598ms |             ::1 | GET      "/marki"
+Error #01: Post "http://localhost:8082/": read tcp 127.0.0.1:61961->127.0.0.1:8082: wsarecv: An existing connection was forcibly closed by the remote host.
+[GIN] 2024/06/15 - 17:01:48 | 500 |     19.5302ms |             ::1 | GET      "/marki"
+Error #01: Post "http://localhost:8082/": read tcp 127.0.0.1:62013->127.0.0.1:8082: wsarecv: An existing connection was forcibly closed by the remote host.
+[GIN] 2024/06/15 - 17:07:58 | 500 |     16.8091ms |             ::1 | GET      "/marki"
+Error #01: Post "http://localhost:8082/": read tcp 127.0.0.1:62248->127.0.0.1:8082: wsarecv: An existing connection was forcibly closed by the remote host.
+[GIN] 2024/06/15 - 17:10:22 | 400 |      33.801ms |             ::1 | GET      "/marki"
+[GIN] 2024/06/15 - 17:10:55 | 400 |     32.8198ms |             ::1 | GET      "/marki"
+[GIN] 2024/06/15 - 17:11:30 | 400 |     34.2978ms |             ::1 | GET      "/marki"
+[GIN] 2024/06/15 - 17:12:21 | 500 |     18.5932ms |             ::1 | GET      "/marki"
+Error #01: Post "http://localhost:8082/": read tcp 127.0.0.1:62454->127.0.0.1:8082: wsarecv: An existing connection was forcibly closed by the remote host.
+[GIN] 2024/06/15 - 17:12:50 | 500 |     24.1125ms |             ::1 | GET      "/marki"
+Error #01: Post "http://localhost:8082/": read tcp 127.0.0.1:62478->127.0.0.1:8082: wsarecv: An existing connection was forcibly closed by the remote host.
+[GIN] 2024/06/15 - 17:14:33 | 500 |     24.5143ms |             ::1 | GET      "/marki"
+Error #01: Post "http://localhost:8082/": read tcp 127.0.0.1:62547->127.0.0.1:8082: wsarecv: An existing connection was forcibly closed by the remote host.
+[GIN] 2024/06/15 - 17:15:25 | 500 |     22.4189ms |             ::1 | GET      "/marki"
+Error #01: Post "http://localhost:8082/": read tcp 127.0.0.1:62581->127.0.0.1:8082: wsarecv: An existing connection was forcibly closed by the remote host.
+[GIN] 2024/06/15 - 17:19:49 | 400 |     22.6379ms |             ::1 | GET      "/marki"
+[GIN] 2024/06/15 - 17:20:09 | 400 |     19.7543ms |             ::1 | GET      "/marki"
+[GIN] 2024/06/15 - 17:21:21 | 500 |     17.0397ms |             ::1 | GET      "/marki"
+Error #01: Post "http://localhost:8082/": read tcp 127.0.0.1:62932->127.0.0.1:8082: wsarecv: An existing connection was forcibly closed by the remote host.
+[GIN] 2024/06/15 - 17:23:11 | 500 |     17.6751ms |             ::1 | GET      "/marki"
+Error #01: Post "http://localhost:8082/": read tcp 127.0.0.1:63007->127.0.0.1:8082: wsarecv: An existing connection was forcibly closed by the remote host.
+[GIN] 2024/06/15 - 17:23:43 | 500 |     20.6862ms |             ::1 | GET      "/marki"
+Error #01: Post "http://localhost:8082/": read tcp 127.0.0.1:63038->127.0.0.1:8082: wsarecv: An existing connection was forcibly closed by the remote host.
+[GIN] 2024/06/15 - 17:24:47 | 400 |     45.4302ms |             ::1 | GET      "/marki"
+[GIN] 2024/06/15 - 17:26:36 | 500 |     17.5374ms |             ::1 | GET      "/marki"
+Error #01: Post "http://localhost:8082/": read tcp 127.0.0.1:63159->127.0.0.1:8082: wsarecv: An existing connection was forcibly closed by the remote host.
+[GIN] 2024/06/15 - 17:28:06 | 400 |     33.3406ms |             ::1 | GET      "/marki"
+[GIN] 2024/06/15 - 17:28:31 | 400 |      30.159ms |             ::1 | GET      "/marki"
+[GIN] 2024/06/15 - 17:28:56 | 400 |     31.7397ms |             ::1 | GET      "/marki"
+[GIN] 2024/06/15 - 17:30:12 | 400 |     28.4897ms |             ::1 | GET      "/marki"
+[GIN] 2024/06/15 - 17:31:01 | 400 |     36.2768ms |             ::1 | GET      "/marki"
+[GIN] 2024/06/15 - 17:31:37 | 500 |     17.2889ms |             ::1 | GET      "/marki"
+Error #01: Post "http://localhost:8082/": read tcp 127.0.0.1:63401->127.0.0.1:8082: wsarecv: An existing connection was forcibly closed by the remote host.
+[GIN] 2024/06/15 - 17:31:50 | 500 |     17.4735ms |             ::1 | GET      "/marki"
+Error #01: Post "http://localhost:8082/": read tcp 127.0.0.1:63413->127.0.0.1:8082: wsarecv: An existing connection was forcibly closed by the remote host.
+[GIN] 2024/06/15 - 17:32:20 | 400 |     29.5971ms |             ::1 | GET      "/marki"
+[GIN] 2024/06/15 - 17:32:39 | 500 |     17.3228ms |             ::1 | GET      "/marki"
+Error #01: Post "http://localhost:8082/": read tcp 127.0.0.1:63451->127.0.0.1:8082: wsarecv: An existing connection was forcibly closed by the remote host.
+[GIN] 2024/06/15 - 17:32:56 | 500 |     17.4839ms |             ::1 | GET      "/marki"
+Error #01: Post "http://localhost:8082/": read tcp 127.0.0.1:63466->127.0.0.1:8082: wsarecv: An existing connection was forcibly closed by the remote host.
+[GIN] 2024/06/15 - 17:33:10 | 400 |     34.1415ms |             ::1 | GET      "/marki"
+[GIN] 2024/06/15 - 17:33:26 | 500 |      19.197ms |             ::1 | GET      "/marki"
+Error #01: Post "http://localhost:8082/": read tcp 127.0.0.1:63498->127.0.0.1:8082: wsarecv: An existing connection was forcibly closed by the remote host.
+[GIN] 2024/06/15 - 17:37:38 | 400 |     30.6832ms |             ::1 | GET      "/marki"
+[GIN] 2024/06/15 - 17:38:23 | 400 |     57.7403ms |             ::1 | GET      "/marki"
+[GIN] 2024/06/15 - 17:38:29 | 400 |     15.4372ms |             ::1 | GET      "/marki"
+[GIN] 2024/06/15 - 17:38:40 | 400 |     43.9718ms |             ::1 | GET      "/marki"
+[GIN] 2024/06/15 - 17:39:24 | 400 |     13.2261ms |             ::1 | GET      "/marki"
+[GIN] 2024/06/15 - 17:40:25 | 400 |     30.8253ms |             ::1 | GET      "/marki"
+[GIN] 2024/06/15 - 17:40:25 | 400 |     14.0053ms |             ::1 | GET      "/marki"
+[GIN] 2024/06/15 - 17:40:26 | 400 |     22.3447ms |             ::1 | GET      "/marki"
+[GIN] 2024/06/15 - 17:40:27 | 400 |     23.7566ms |             ::1 | GET      "/marki"
+[GIN] 2024/06/15 - 17:40:28 | 400 |     14.1621ms |             ::1 | GET      "/marki"
+[GIN] 2024/06/15 - 17:40:29 | 400 |     19.4844ms |             ::1 | GET      "/marki"
+[GIN] 2024/06/15 - 17:40:30 | 400 |     13.6748ms |             ::1 | GET      "/marki"
+[GIN] 2024/06/15 - 17:40:30 | 400 |     12.5202ms |             ::1 | GET      "/marki"
+[GIN] 2024/06/15 - 17:40:31 | 400 |     14.7552ms |             ::1 | GET      "/marki"
+[GIN] 2024/06/15 - 17:40:31 | 400 |      14.874ms |             ::1 | GET      "/marki"
+[GIN] 2024/06/15 - 17:40:32 | 400 |     21.1268ms |             ::1 | GET      "/marki"
+[GIN] 2024/06/15 - 17:40:32 | 400 |     11.9975ms |             ::1 | GET      "/marki"
+[GIN] 2024/06/15 - 17:40:33 | 400 |     20.8313ms |             ::1 | GET      "/marki"
+[GIN] 2024/06/15 - 17:40:33 | 400 |     19.2152ms |             ::1 | GET      "/marki"
+[GIN] 2024/06/15 - 17:40:34 | 400 |     13.2827ms |             ::1 | GET      "/marki"
+[GIN] 2024/06/15 - 17:40:34 | 400 |     11.6152ms |             ::1 | GET      "/marki"
+[GIN] 2024/06/15 - 17:40:34 | 400 |     11.9343ms |             ::1 | GET      "/marki"
+[GIN] 2024/06/15 - 17:40:35 | 400 |     14.4148ms |             ::1 | GET      "/marki"
+[GIN] 2024/06/15 - 17:40:35 | 400 |     14.5197ms |             ::1 | GET      "/marki"
+[GIN] 2024/06/15 - 17:40:36 | 400 |     16.5806ms |             ::1 | GET      "/marki"
+[GIN] 2024/06/15 - 17:40:36 | 400 |     18.4243ms |             ::1 | GET      "/marki"
+[GIN] 2024/06/15 - 17:40:36 | 400 |     18.3977ms |             ::1 | GET      "/marki"
+[GIN] 2024/06/15 - 17:40:37 | 400 |     12.7781ms |             ::1 | GET      "/marki"
+[GIN] 2024/06/15 - 17:40:37 | 400 |     12.9971ms |             ::1 | GET      "/marki"
+[GIN] 2024/06/15 - 17:40:38 | 400 |      19.737ms |             ::1 | GET      "/marki"
+[GIN] 2024/06/15 - 17:40:38 | 400 |     22.3789ms |             ::1 | GET      "/marki"
+[GIN] 2024/06/15 - 17:40:38 | 400 |     32.5828ms |             ::1 | GET      "/marki"
+[GIN] 2024/06/15 - 17:40:39 | 400 |     13.9683ms |             ::1 | GET      "/marki"
+[GIN] 2024/06/15 - 17:40:39 | 400 |     19.5678ms |             ::1 | GET      "/marki"
+[GIN] 2024/06/15 - 17:40:40 | 400 |      18.133ms |             ::1 | GET      "/marki"
+[GIN] 2024/06/15 - 17:40:40 | 400 |     17.5668ms |             ::1 | GET      "/marki"
+[GIN] 2024/06/15 - 17:40:40 | 400 |     11.7279ms |             ::1 | GET      "/marki"
+[GIN] 2024/06/15 - 17:40:41 | 400 |     16.6075ms |             ::1 | GET      "/marki"
+[GIN] 2024/06/15 - 17:40:41 | 400 |     21.6143ms |             ::1 | GET      "/marki"
+[GIN] 2024/06/15 - 17:40:42 | 400 |     14.8295ms |             ::1 | GET      "/marki"
+[GIN] 2024/06/15 - 17:40:42 | 400 |     14.1639ms |             ::1 | GET      "/marki"
+[GIN] 2024/06/15 - 17:40:42 | 400 |     14.2419ms |             ::1 | GET      "/marki"
+[GIN] 2024/06/15 - 17:40:43 | 400 |     26.8034ms |             ::1 | GET      "/marki"
+[GIN] 2024/06/15 - 17:40:43 | 400 |     18.3086ms |             ::1 | GET      "/marki"
+[GIN] 2024/06/15 - 17:40:44 | 400 |     15.0416ms |             ::1 | GET      "/marki"
+[GIN] 2024/06/15 - 17:40:44 | 400 |     13.3229ms |             ::1 | GET      "/marki"
+[GIN] 2024/06/15 - 17:40:45 | 400 |     18.5182ms |             ::1 | GET      "/marki"
+[GIN] 2024/06/15 - 17:40:45 | 400 |     12.2392ms |             ::1 | GET      "/marki"
+[GIN] 2024/06/15 - 17:40:45 | 400 |     14.1508ms |             ::1 | GET      "/marki"
+[GIN] 2024/06/15 - 17:40:46 | 400 |     22.4293ms |             ::1 | GET      "/marki"
+[GIN] 2024/06/15 - 17:40:46 | 400 |     17.1762ms |             ::1 | GET      "/marki"
+[GIN] 2024/06/15 - 17:40:46 | 400 |      15.085ms |             ::1 | GET      "/marki"
+[GIN] 2024/06/15 - 17:40:47 | 400 |     20.2509ms |             ::1 | GET      "/marki"
+[GIN] 2024/06/15 - 17:40:47 | 400 |     14.2694ms |             ::1 | GET      "/marki"
+[GIN] 2024/06/15 - 17:40:48 | 400 |     16.4797ms |             ::1 | GET      "/marki"
+[GIN] 2024/06/15 - 17:40:48 | 400 |     18.5188ms |             ::1 | GET      "/marki"
+[GIN] 2024/06/15 - 17:40:48 | 400 |     13.3557ms |             ::1 | GET      "/marki"
+[GIN] 2024/06/15 - 17:40:49 | 400 |     20.9254ms |             ::1 | GET      "/marki"
+[GIN] 2024/06/15 - 17:40:49 | 400 |     19.1659ms |             ::1 | GET      "/marki"
+[GIN] 2024/06/15 - 17:40:49 | 400 |     31.0849ms |             ::1 | GET      "/marki"
+[GIN] 2024/06/15 - 17:40:50 | 400 |     33.9521ms |             ::1 | GET      "/marki"
+[GIN] 2024/06/15 - 17:40:51 | 400 |     14.2292ms |             ::1 | GET      "/marki"
+[GIN] 2024/06/15 - 17:40:51 | 400 |     12.0446ms |             ::1 | GET      "/marki"
+[GIN] 2024/06/15 - 17:40:51 | 400 |     16.0199ms |             ::1 | GET      "/marki"
+[GIN] 2024/06/15 - 17:40:52 | 400 |      13.826ms |             ::1 | GET      "/marki"
+[GIN] 2024/06/15 - 17:40:52 | 400 |     12.6327ms |             ::1 | GET      "/marki"
+[GIN] 2024/06/15 - 17:40:53 | 400 |     13.0067ms |             ::1 | GET      "/marki"
+[GIN] 2024/06/15 - 17:40:53 | 400 |     21.0265ms |             ::1 | GET      "/marki"
+[GIN] 2024/06/15 - 17:40:53 | 400 |     15.4027ms |             ::1 | GET      "/marki"
+[GIN] 2024/06/15 - 17:40:54 | 400 |     14.1485ms |             ::1 | GET      "/marki"
+[GIN] 2024/06/15 - 17:40:54 | 400 |     14.1655ms |             ::1 | GET      "/marki"
+[GIN] 2024/06/15 - 17:40:55 | 400 |     14.2747ms |             ::1 | GET      "/marki"
+[GIN] 2024/06/15 - 17:40:55 | 400 |     16.6336ms |             ::1 | GET      "/marki"
+[GIN] 2024/06/15 - 17:40:55 | 400 |     18.6551ms |             ::1 | GET      "/marki"
+[GIN] 2024/06/15 - 17:40:56 | 400 |     19.1741ms |             ::1 | GET      "/marki"
+[GIN] 2024/06/15 - 17:40:56 | 400 |     13.3522ms |             ::1 | GET      "/marki"
+[GIN] 2024/06/15 - 17:40:56 | 400 |     17.4227ms |             ::1 | GET      "/marki"
+[GIN] 2024/06/15 - 17:40:57 | 400 |     22.3807ms |             ::1 | GET      "/marki"
+[GIN] 2024/06/15 - 17:40:57 | 400 |     12.8236ms |             ::1 | GET      "/marki"
+[GIN] 2024/06/15 - 17:40:58 | 400 |     20.1852ms |             ::1 | GET      "/marki"
+[GIN] 2024/06/15 - 17:40:58 | 400 |      14.291ms |             ::1 | GET      "/marki"
+[GIN] 2024/06/15 - 17:40:58 | 400 |     12.5303ms |             ::1 | GET      "/marki"
+[GIN] 2024/06/15 - 17:40:59 | 400 |     17.2318ms |             ::1 | GET      "/marki"
+[GIN] 2024/06/15 - 17:40:59 | 400 |     70.2931ms |             ::1 | GET      "/marki"
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /marki                    --> main.fufu (5 handlers)
+[GIN-debug] POST   /marki                    --> main.fufu (5 handlers)
+[GIN-debug] PUT    /marki                    --> main.fufu (5 handlers)
+[GIN-debug] PATCH  /marki                    --> main.fufu (5 handlers)
+[GIN-debug] HEAD   /marki                    --> main.fufu (5 handlers)
+[GIN-debug] OPTIONS /marki                    --> main.fufu (5 handlers)
+[GIN-debug] DELETE /marki                    --> main.fufu (5 handlers)
+[GIN-debug] CONNECT /marki                    --> main.fufu (5 handlers)
+[GIN-debug] TRACE  /marki                    --> main.fufu (5 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :8081
+[GIN] 2024/06/15 - 17:41:37 | 400 |     82.8191ms |             ::1 | GET      "/marki"
+[GIN] 2024/06/15 - 17:42:25 | 400 |     18.6072ms |             ::1 | GET      "/marki"
+[GIN] 2024/06/15 - 17:44:41 | 400 |     33.1701ms |             ::1 | GET      "/marki"
+[GIN] 2024/06/15 - 17:44:49 | 400 |     15.8654ms |             ::1 | GET      "/marki"
+[GIN] 2024/06/15 - 17:45:00 | 400 |     17.4207ms |             ::1 | GET      "/marki"
+[GIN] 2024/06/15 - 17:47:02 | 400 |     32.5921ms |             ::1 | GET      "/marki"
+[GIN] 2024/06/15 - 17:47:27 | 400 |     15.1778ms |             ::1 | GET      "/marki"
+[GIN] 2024/06/15 - 17:47:32 | 400 |     11.2324ms |             ::1 | GET      "/marki"
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /marki                    --> main.fufu (5 handlers)
+[GIN-debug] POST   /marki                    --> main.fufu (5 handlers)
+[GIN-debug] PUT    /marki                    --> main.fufu (5 handlers)
+[GIN-debug] PATCH  /marki                    --> main.fufu (5 handlers)
+[GIN-debug] HEAD   /marki                    --> main.fufu (5 handlers)
+[GIN-debug] OPTIONS /marki                    --> main.fufu (5 handlers)
+[GIN-debug] DELETE /marki                    --> main.fufu (5 handlers)
+[GIN-debug] CONNECT /marki                    --> main.fufu (5 handlers)
+[GIN-debug] TRACE  /marki                    --> main.fufu (5 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :8080
+[GIN] 2024/06/16 - 11:06:03 | 500 |     39.6419ms |             ::1 | GET      "/"
+Error #01: Post "http://localhost:8082/": dial tcp 127.0.0.1:8082: connectex: No connection could be made because the target machine actively refused it.
+[GIN] 2024/06/16 - 11:06:31 | 500 |      3.0741ms |             ::1 | GET      "/"
+Error #01: Post "http://localhost:8082/": dial tcp 127.0.0.1:8082: connectex: No connection could be made because the target machine actively refused it.
+[GIN] 2024/06/16 - 11:07:35 | 500 |       3.187ms |             ::1 | GET      "/"
+Error #01: Post "http://localhost:8082/": dial tcp 127.0.0.1:8082: connectex: No connection could be made because the target machine actively refused it.
+[GIN] 2024/06/16 - 11:08:17 | 500 |      3.2724ms |             ::1 | GET      "/"
+Error #01: Post "http://localhost:8082/": dial tcp 127.0.0.1:8082: connectex: No connection could be made because the target machine actively refused it.
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /marki                    --> main.fufu (5 handlers)
+[GIN-debug] POST   /marki                    --> main.fufu (5 handlers)
+[GIN-debug] PUT    /marki                    --> main.fufu (5 handlers)
+[GIN-debug] PATCH  /marki                    --> main.fufu (5 handlers)
+[GIN-debug] HEAD   /marki                    --> main.fufu (5 handlers)
+[GIN-debug] OPTIONS /marki                    --> main.fufu (5 handlers)
+[GIN-debug] DELETE /marki                    --> main.fufu (5 handlers)
+[GIN-debug] CONNECT /marki                    --> main.fufu (5 handlers)
+[GIN-debug] TRACE  /marki                    --> main.fufu (5 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :8081
+[GIN] 2024/06/16 - 11:35:21 | 400 |     42.8499ms |             ::1 | GET      "/marki"
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /marki                    --> main.fufu (5 handlers)
+[GIN-debug] POST   /marki                    --> main.fufu (5 handlers)
+[GIN-debug] PUT    /marki                    --> main.fufu (5 handlers)
+[GIN-debug] PATCH  /marki                    --> main.fufu (5 handlers)
+[GIN-debug] HEAD   /marki                    --> main.fufu (5 handlers)
+[GIN-debug] OPTIONS /marki                    --> main.fufu (5 handlers)
+[GIN-debug] DELETE /marki                    --> main.fufu (5 handlers)
+[GIN-debug] CONNECT /marki                    --> main.fufu (5 handlers)
+[GIN-debug] TRACE  /marki                    --> main.fufu (5 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :8081
+[GIN] 2024/06/16 - 12:14:26 | 400 |    140.7433ms |             ::1 | GET      "/marki"
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /marki                    --> main.fufu (5 handlers)
+[GIN-debug] POST   /marki                    --> main.fufu (5 handlers)
+[GIN-debug] PUT    /marki                    --> main.fufu (5 handlers)
+[GIN-debug] PATCH  /marki                    --> main.fufu (5 handlers)
+[GIN-debug] HEAD   /marki                    --> main.fufu (5 handlers)
+[GIN-debug] OPTIONS /marki                    --> main.fufu (5 handlers)
+[GIN-debug] DELETE /marki                    --> main.fufu (5 handlers)
+[GIN-debug] CONNECT /marki                    --> main.fufu (5 handlers)
+[GIN-debug] TRACE  /marki                    --> main.fufu (5 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :8081
+[GIN] 2024/06/26 - 00:49:10 | 400 |    349.3109ms |             ::1 | GET      "/marki"

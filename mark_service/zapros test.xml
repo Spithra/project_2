@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ns:Documents Version="1.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:ns="http://fsrar.ru/WEGAIS/WB_DOC_SINGLE_01"
+    xmlns:oref="http://fsrar.ru/WEGAIS/ClientRef_v2"
+    xmlns:pref="http://fsrar.ru/WEGAIS/ProductRef_v2"
+    xmlns:wb="http://fsrar.ru/WEGAIS/TTNSingle_v2">
+    <ns:Owner>
+        <ns:FSRAR_ID>030000194005</ns:FSRAR_ID>
+    </ns:Owner>
+    <ns:Document>
+        <ns:WayBill_v2>
+            <wb:Content>
+                <wb:Position>
+                    <wb:Identity>1</wb:Identity>
+                    <wb:Product>
+                        <pref:FullName>Пиво "Голд Майн Бир" ("Gold Mine Beer") светлое. Пастеризованное. 4,6%, Бутылка стеклянная 0,5 л</pref:FullName>
+                        <pref:AlcCode>0035470000001237729</pref:AlcCode>
+                        <pref:Capacity>0.5000</pref:Capacity>
+                        <pref:AlcVolume>4.600</pref:AlcVolume>
+                    </wb:Product>
+                    <wb:Quantity>5</wb:Quantity>
+                    <wb:InformF2>
+                        <pref:InformF2Item>
+                            <pref:F2RegId>FB-000000005430435</pref:F2RegId>
+                        </pref:InformF2Item>
+                    </wb:InformF2>
+                </wb:Position>
+                <wb:Position>
+                    <wb:Identity>2</wb:Identity>
+                    <wb:Product>
+                        <pref:FullName>Пиво светлое (пастеризованное) "Балтика классическое" №3 кег,Ростов</pref:FullName>
+                        <pref:AlcCode>0036195000001238577</pref:AlcCode>
+                        <pref:AlcVolume>4.800</pref:AlcVolume>
+                    </wb:Product>
+                    <wb:Quantity>3</wb:Quantity>
+                    <wb:InformF2>
+                        <pref:InformF2Item>
+                            <pref:F2RegId>FB-000000005664278</pref:F2RegId>
+                        </pref:InformF2Item>
+                    </wb:InformF2>
+                </wb:Position>
+            </wb:Content>
+        </ns:WayBill_v2>
+    </ns:Document>
+</ns:Documents>
