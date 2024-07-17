@@ -11,6 +11,7 @@ import (
 	"net/http"
 	"net/http/httputil"
 	"net/url"
+	"os"
 	"strconv"
 	"strings"
 
@@ -41,7 +42,12 @@ func main() {
 
 	db.ConnectDatabase()
 
+	f, _ := os.OpenFile("request.log", os.O_RDWR|os.O_CREATE|os.O_APPEND, 0666)
+	gin.DefaultWriter = io.MultiWriter(f, os.Stdout)
+
 	routerProxy := gin.Default()
+
+	routerProxy.Use(ginBodyLogMiddleware, Logger())
 
 	routerProxy.Any("/*proxyPath", proxy)
 
@@ -153,3 +159,34 @@ func Grub(resp *http.Response) (err error) {
 //         }
 //     }
 // }
+
+func Logger() gin.HandlerFunc {
+	return func(c *gin.Context) {
+		buf, _ := io.ReadAll(c.Request.Body)
+		rdr1 := io.NopCloser(bytes.NewBuffer(buf))
+
+		f, _ := os.OpenFile("request.log", os.O_RDWR|os.O_CREATE|os.O_APPEND, 0666)
+		f.WriteString("REQUEST BODY: " + (string(buf)) + "\n")
+
+		c.Request.Body = rdr1
+		c.Next()
+	}
+}
+
+type bodyLogWriter struct {
+	gin.ResponseWriter
+	body *bytes.Buffer
+}
+
+func (w bodyLogWriter) Write(b []byte) (int, error) {
+	w.body.Write(b)
+	return w.ResponseWriter.Write(b)
+}
+
+func ginBodyLogMiddleware(c *gin.Context) {
+	blw := &bodyLogWriter{body: bytes.NewBufferString(""), ResponseWriter: c.Writer}
+	c.Writer = blw
+	c.Next()
+	f, _ := os.OpenFile("request.log", os.O_RDWR|os.O_CREATE|os.O_APPEND, 0666)
+	f.WriteString("RESPONSE BODY: " + blw.body.String() + "\n")
+}
