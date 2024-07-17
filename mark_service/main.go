@@ -11,14 +11,25 @@ import (
 	"net/http"
 	"net/http/httputil"
 	"net/url"
+	"os"
 	"strconv"
 	"strings"
 
 	"github.com/gin-gonic/gin"
 )
 
+func getHost() string {
+	host, ok := os.LookupEnv("UTM_HOST")
+	if !ok {
+		host = "http://localhost:8080"
+	}
+
+	return host
+}
+
 func proxy(c *gin.Context) {
-	remote, err := url.Parse("http://localhost:8080")
+
+	remote, err := url.Parse(getHost())
 	if err != nil {
 		panic(err)
 	}
@@ -38,6 +49,8 @@ func proxy(c *gin.Context) {
 }
 
 func main() {
+
+	log.Println("Going to steal from UTM:", getHost())
 
 	db.ConnectDatabase()
 
