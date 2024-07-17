@@ -11,6 +11,8 @@ import (
 	"net/http"
 	"net/http/httputil"
 	"net/url"
+	"strconv"
+	"strings"
 
 	"github.com/gin-gonic/gin"
 )
@@ -67,6 +69,8 @@ func Grub(resp *http.Response) (err error) {
 		println("err")
 	}
 
+	newbody := strings.ReplaceAll(string(b), "http://localhost:8080", "http://localhost:8085")
+
 	xmlerr := xml.Unmarshal(b, &Documents)
 	if xmlerr != nil {
 		print(xmlerr)
@@ -90,10 +94,10 @@ func Grub(resp *http.Response) (err error) {
 
 		}
 	}
-	body := ioutil.NopCloser(bytes.NewReader(b))
+	body := ioutil.NopCloser(bytes.NewReader([]byte(newbody)))
 	resp.Body = body
-	// resp.ContentLength = int64(len(b))
-	// resp.Header.Set("Content-Length", strconv.Itoa(len(b)))
+	resp.ContentLength = int64(len(b))
+	resp.Header.Set("Content-Length", strconv.Itoa(len(b)))
 
 	// resp.Header.Set("Content-Length", strconv.Itoa(int(resp.ContentLength)))
 	// err = resp.Body.Close()
